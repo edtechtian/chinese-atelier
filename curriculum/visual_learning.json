@@ -1,0 +1,5203 @@
+{
+  "schemaVersion": 1,
+  "origin": "supplementary",
+  "approval": "pending_teacher_review",
+  "notice": "Images are instructional supports. Source assets retain attribution; all new prompts, illustrations, sequences, hotspot vocabulary and dialogue scripts are supplementary. No new official travel facts or procedures are asserted.",
+  "images": {
+    "passport": {
+      "id": "passport",
+      "src": "/assets/visual/passport.svg",
+      "alt": "A blue travel passport booklet",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "boarding-pass": {
+      "id": "boarding-pass",
+      "src": "/assets/visual/boarding-pass.svg",
+      "alt": "An airline boarding pass with a barcode and aircraft symbol",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "key-card": {
+      "id": "key-card",
+      "src": "/assets/visual/key-card.svg",
+      "alt": "A hotel key card with a magnetic stripe and key symbol",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "suitcase": {
+      "id": "suitcase",
+      "src": "/assets/visual/suitcase.svg",
+      "alt": "A wheeled suitcase with a pull handle",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "reception": {
+      "id": "reception",
+      "src": "/assets/visual/reception.svg",
+      "alt": "A staff member behind a reception desk with a service bell",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "checkin": {
+      "id": "checkin",
+      "src": "/assets/visual/checkin.svg",
+      "alt": "A traveller holding a passport at a hotel reception desk",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "room": {
+      "id": "room",
+      "src": "/assets/visual/room.svg",
+      "alt": "A hotel room with a bed, pillows, window and lamp",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "directions": {
+      "id": "directions",
+      "src": "/assets/visual/directions.svg",
+      "alt": "Two directional signs pointing opposite ways",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "airport": {
+      "id": "airport",
+      "src": "/assets/visual/airport.svg",
+      "alt": "An aircraft approaching a runway",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "bank": {
+      "id": "bank",
+      "src": "/assets/visual/bank.svg",
+      "alt": "A bank building with columns",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "money": {
+      "id": "money",
+      "src": "/assets/visual/money.svg",
+      "alt": "An illustrated banknote, not a real currency denomination",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "phone": {
+      "id": "phone",
+      "src": "/assets/visual/phone.svg",
+      "alt": "A mobile telephone",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "food": {
+      "id": "food",
+      "src": "/assets/visual/food.svg",
+      "alt": "A plate of stir-fried noodles",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "menu": {
+      "id": "menu",
+      "src": "/assets/visual/menu.svg",
+      "alt": "An open restaurant menu",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "clothes": {
+      "id": "clothes",
+      "src": "/assets/visual/clothes.svg",
+      "alt": "A short-sleeved T-shirt",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "mountain": {
+      "id": "mountain",
+      "src": "/assets/visual/mountain.svg",
+      "alt": "A mountain trail through green hills",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "beach": {
+      "id": "beach",
+      "src": "/assets/visual/beach.svg",
+      "alt": "A sandy beach and blue sea",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "sunrise": {
+      "id": "sunrise",
+      "src": "/assets/visual/sunrise.svg",
+      "alt": "The sun rising above the sea",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "lantern": {
+      "id": "lantern",
+      "src": "/assets/visual/lantern.svg",
+      "alt": "A floating paper sky lantern with an open base and an internal flame, not a hanging lantern",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "float": {
+      "id": "float",
+      "src": "/assets/visual/float.svg",
+      "alt": "A candlelit floating arrangement on water",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "gift": {
+      "id": "gift",
+      "src": "/assets/visual/gift.svg",
+      "alt": "A wrapped gift with a ribbon",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "flowers": {
+      "id": "flowers",
+      "src": "/assets/visual/flowers.svg",
+      "alt": "A basket of flowers",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "splash": {
+      "id": "splash",
+      "src": "/assets/visual/splash.svg",
+      "alt": "Water splashing in droplets",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "shoes": {
+      "id": "shoes",
+      "src": "/assets/visual/shoes.svg",
+      "alt": "A pair of shoes",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "coffee": {
+      "id": "coffee",
+      "src": "/assets/visual/coffee.svg",
+      "alt": "A cup of coffee",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "no-photo": {
+      "id": "no-photo",
+      "src": "/assets/visual/no-photo.svg",
+      "alt": "A camera crossed out by a prohibition sign",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "wai": {
+      "id": "wai",
+      "src": "/assets/visual/wai.svg",
+      "alt": "Two palms held together, a simplified greeting illustration",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "city": {
+      "id": "city",
+      "src": "/assets/visual/city.svg",
+      "alt": "A group of urban buildings",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "market": {
+      "id": "market",
+      "src": "/assets/visual/market.svg",
+      "alt": "A market stall displaying fruit",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "clock": {
+      "id": "clock",
+      "src": "/assets/visual/clock.svg",
+      "alt": "An analogue clock",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "question": {
+      "id": "question",
+      "src": "/assets/visual/question.svg",
+      "alt": "A question mark representing context rather than a literal word image",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "airplane": {
+      "id": "airplane",
+      "src": "/assets/visual/airplane.svg",
+      "alt": "An aircraft in flight",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "hotel": {
+      "id": "hotel",
+      "src": "/assets/visual/hotel.svg",
+      "alt": "A hotel building with guestroom windows and an entrance",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "temple": {
+      "id": "temple",
+      "src": "/assets/visual/temple.svg",
+      "alt": "A stylized temple, not a portrait of a named attraction",
+      "kind": "illustration",
+      "origin": "supplementary",
+      "sourceRefs": [],
+      "attribution": "Original Chinese Atelier SVG teaching illustration, 2026",
+      "status": "editorial_visual_checked_pending_teacher"
+    },
+    "source-4": {
+      "id": "source-4",
+      "src": "/assets/source/078e450cf1db511c/0db04b0359.jpeg",
+      "alt": "Temple buildings and golden spires in a landscaped complex; source names the Grand Palace in this context.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-02-slide-008"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-4-480.webp",
+        "960": "/assets/visual/source-4-960.webp"
+      }
+    },
+    "source-5": {
+      "id": "source-5",
+      "src": "/assets/source/5792c8b1bcb90a9e/5c22d29cff.jpg",
+      "alt": "A hotel bedroom with a bed and warm lighting.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-03-slide-001"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-5-480.webp",
+        "960": "/assets/visual/source-5-960.webp"
+      }
+    },
+    "source-15": {
+      "id": "source-15",
+      "src": "/assets/source/65a4a34362d370e7/ab7b1cb2b1.jpeg",
+      "alt": "A three-wheeled tuk-tuk parked on a busy street.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-06-slide-005"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-15-480.webp",
+        "960": "/assets/visual/source-15-960.webp"
+      }
+    },
+    "source-18": {
+      "id": "source-18",
+      "src": "/assets/source/0ae5a11bebe6b31f/f59e28ec2d.jpeg",
+      "alt": "Temple buildings above a green hillside; exact location is not established by the image.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-07-slide-001"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-18-480.webp",
+        "960": "/assets/visual/source-18-960.webp"
+      }
+    },
+    "source-19": {
+      "id": "source-19",
+      "src": "/assets/source/0ae5a11bebe6b31f/783b34347e.jpeg",
+      "alt": "A brightly lit street market with crowds and stalls at night; exact location is unverified.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-07-slide-002"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-19-480.webp",
+        "960": "/assets/visual/source-19-960.webp"
+      }
+    },
+    "source-22": {
+      "id": "source-22",
+      "src": "/assets/source/479881c1731fa9ab/c4ff3c7eda.jpg",
+      "alt": "A green mountain landscape with a path; exact location is unverified.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-08-slide-003"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-22-480.webp",
+        "960": "/assets/visual/source-22-960.webp"
+      }
+    },
+    "source-26": {
+      "id": "source-26",
+      "src": "/assets/source/8e788342484cf217/318ea0a07b.jpeg",
+      "alt": "Stir-fried noodles with vegetables on a white plate.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-09-slide-001"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-26-480.webp",
+        "960": "/assets/visual/source-26-960.webp"
+      }
+    },
+    "source-31": {
+      "id": "source-31",
+      "src": "/assets/source/f3d396fbb76b930a/ecdf1222f4.jpeg",
+      "alt": "A sandy beach, blue sea and a small boat; exact beach is not established by the photograph.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-11-slide-005"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-31-480.webp",
+        "960": "/assets/visual/source-31-960.webp"
+      }
+    },
+    "source-34": {
+      "id": "source-34",
+      "src": "/assets/source/f529389e22b94bbd/783b34347e.jpeg",
+      "alt": "A row of colourful buildings with arched windows; exact street is unverified.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-13-slide-001"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-34-480.webp",
+        "960": "/assets/visual/source-34-960.webp"
+      }
+    },
+    "source-40": {
+      "id": "source-40",
+      "src": "/assets/source/b400f71df1c6a99f/aaee4a234d.jpeg",
+      "alt": "A café storefront with outdoor tables; no venue recommendation is implied.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-15-slide-006"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-40-480.webp",
+        "960": "/assets/visual/source-40-960.webp"
+      }
+    },
+    "source-41": {
+      "id": "source-41",
+      "src": "/assets/source/b400f71df1c6a99f/c7743e9b20.jpeg",
+      "alt": "A plate of shredded green papaya salad with vegetables.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-15-slide-009"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-41-480.webp",
+        "960": "/assets/visual/source-41-960.webp"
+      }
+    },
+    "source-42": {
+      "id": "source-42",
+      "src": "/assets/source/b400f71df1c6a99f/5215e004e7.jpeg",
+      "alt": "Several pieces of fried chicken on a plate.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-15-slide-009"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-42-480.webp",
+        "960": "/assets/visual/source-42-960.webp"
+      }
+    },
+    "source-43": {
+      "id": "source-43",
+      "src": "/assets/source/752fc3e6c6472a48/ecdf1222f4.jpeg",
+      "alt": "People placing candlelit floating arrangements on water at night.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-16-slide-004"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-43-480.webp",
+        "960": "/assets/visual/source-43-960.webp"
+      }
+    },
+    "source-44": {
+      "id": "source-44",
+      "src": "/assets/source/752fc3e6c6472a48/a8b9ebcffa.jpeg",
+      "alt": "A flower-and-leaf floating arrangement with a lit candle.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-16-slide-010"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-44-480.webp",
+        "960": "/assets/visual/source-44-960.webp"
+      }
+    },
+    "source-47": {
+      "id": "source-47",
+      "src": "/assets/source/903bbaf670cf9518/a1274ddf51.jpeg",
+      "alt": "A woman in illustrated Thai dress holding her palms together.",
+      "kind": "source_illustration",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-17-slide-002"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-47-480.webp",
+        "960": "/assets/visual/source-47-960.webp"
+      }
+    },
+    "source-53": {
+      "id": "source-53",
+      "src": "/assets/source/81dd3761aad59401/3239e40219.jpeg",
+      "alt": "Two visitors looking upward at a cultural site; the image alone does not establish which site.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-20-slide-012"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-53-480.webp",
+        "960": "/assets/visual/source-53-960.webp"
+      }
+    }
+  },
+  "units": [
+    {
+      "id": "zt-01",
+      "title": "落地签太方便了!",
+      "sceneId": "airport",
+      "vocabulary": [
+        {
+          "itemId": "zt-01-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v02",
+          "imageId": "airport",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-01-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v13",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v14",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v15",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v16",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v17",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v18",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v19",
+          "imageId": "passport",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-01-v20",
+          "imageId": "boarding-pass",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-01-v21",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v22",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-01-v23",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-01-visual-word-v02",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "airport",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-01-v20",
+              "text": "登机牌"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-01-v02",
+              "text": "机场"
+            }
+          ],
+          "answer": "zt-01-v02",
+          "expected": "机场",
+          "explanation": "The visible scene supports 机场 (airport). Use it in a full sentence: 佳佳：太好了！我马上到机场。",
+          "vocabularyId": "zt-01-v02",
+          "sourceRefs": [
+            "zt-01-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-01-visual-word-v19",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "passport",
+          "options": [
+            {
+              "id": "zt-01-v02",
+              "text": "机场"
+            },
+            {
+              "id": "zt-01-v20",
+              "text": "登机牌"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            }
+          ],
+          "answer": "zt-01-v19",
+          "expected": "护照",
+          "explanation": "The visible scene supports 护照 (passport). Use it in a full sentence: 签证官：请给我护照和登机牌。",
+          "vocabularyId": "zt-01-v19",
+          "sourceRefs": [
+            "zt-01-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-01-visual-word-v20",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "boarding-pass",
+          "options": [
+            {
+              "id": "zt-01-v02",
+              "text": "机场"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-01-v20",
+              "text": "登机牌"
+            }
+          ],
+          "answer": "zt-01-v20",
+          "expected": "登机牌",
+          "explanation": "The visible scene supports 登机牌 (boarding pass). Use it in a full sentence: 签证官：请给我护照和登机牌。",
+          "vocabularyId": "zt-01-v20",
+          "sourceRefs": [
+            "zt-01-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-01-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "airport"
+            },
+            {
+              "id": "1",
+              "imageId": "passport"
+            },
+            {
+              "id": "2",
+              "imageId": "boarding-pass"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-01-v20",
+              "text": "登机牌"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-01-v02",
+              "text": "机场"
+            }
+          ],
+          "answer": [
+            "zt-01-v02",
+            "zt-01-v19",
+            "zt-01-v20"
+          ],
+          "expected": "机场 / 护照 / 登机牌",
+          "explanation": "Match visible objects or actions, not the order of the options. 机场 — airport；护照 — passport；登机牌 — boarding pass",
+          "sourceRefs": [
+            "zt-01-slide-002",
+            "zt-01-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-01-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "airport",
+          "sentence": "我们在____见面。",
+          "accepted": [
+            "机场"
+          ],
+          "expected": "机场",
+          "explanation": "The missing expression is 机场. airport. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-01-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-01-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 落地签太方便了!. Do not invent the location, price or current travel rules.",
+          "imageId": "airport",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-01-slide-006"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-02",
+      "title": "泰国我来啦！",
+      "sceneId": "source-4",
+      "vocabulary": [
+        {
+          "itemId": "zt-02-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v11",
+          "imageId": "hotel",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-02-v12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v13",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v14",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v15",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-v16",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-expression-01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-expression-02",
+          "imageId": "source-4",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-02-expression-03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-02-expression-04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-02-visual-word-v11",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "hotel",
+          "options": [
+            {
+              "id": "zt-02-expression-02",
+              "text": "大皇宫"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-02-v11",
+              "text": "酒店"
+            }
+          ],
+          "answer": "zt-02-v11",
+          "expected": "酒店",
+          "explanation": "The visible scene supports 酒店 (hotel). Use it in a full sentence: 大皇宫离你的酒店不远。",
+          "vocabularyId": "zt-02-v11",
+          "sourceRefs": [
+            "zt-02-slide-006"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-02-visual-word-02",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-4",
+          "options": [
+            {
+              "id": "zt-02-v11",
+              "text": "酒店"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-02-expression-02",
+              "text": "大皇宫"
+            }
+          ],
+          "answer": "zt-02-expression-02",
+          "expected": "大皇宫",
+          "explanation": "The visible scene supports 大皇宫 (Grand Palace). Use it in a full sentence: 请问您想先去大皇宫还是卧佛寺？",
+          "vocabularyId": "zt-02-expression-02",
+          "sourceRefs": [
+            "zt-02-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-02-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "hotel"
+            },
+            {
+              "id": "1",
+              "imageId": "source-4"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-02-expression-02",
+              "text": "大皇宫"
+            },
+            {
+              "id": "zt-02-v11",
+              "text": "酒店"
+            }
+          ],
+          "answer": [
+            "zt-02-v11",
+            "zt-02-expression-02"
+          ],
+          "expected": "酒店 / 大皇宫",
+          "explanation": "Match visible objects or actions, not the order of the options. 酒店 — hotel；大皇宫 — Grand Palace",
+          "sourceRefs": [
+            "zt-02-slide-006",
+            "zt-02-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-02-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "hotel",
+          "sentence": "我们已经到____了。",
+          "accepted": [
+            "酒店"
+          ],
+          "expected": "酒店",
+          "explanation": "The missing expression is 酒店. hotel. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-02-slide-006"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-02-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 泰国我来啦！. Do not invent the location, price or current travel rules.",
+          "imageId": "source-4",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-02-slide-005"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-03",
+      "title": "到酒店了",
+      "sceneId": "reception",
+      "vocabulary": [
+        {
+          "itemId": "zt-03-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v03",
+          "imageId": "checkin",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-03-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v05",
+          "imageId": "source-5",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-03-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v07",
+          "imageId": "key-card",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-03-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-v13",
+          "imageId": "suitcase",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-03-expression-05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-03-expression-06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-03-visual-word-v03",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "checkin",
+          "options": [
+            {
+              "id": "zt-03-v05",
+              "text": "房间"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-03-v03",
+              "text": "入住"
+            }
+          ],
+          "answer": "zt-03-v03",
+          "expected": "入住",
+          "explanation": "The visible scene supports 入住 (to check in; stay). Use it in a full sentence: 小爱：您好，我们要办理入住。",
+          "vocabularyId": "zt-03-v03",
+          "sourceRefs": [
+            "zt-03-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-03-visual-word-v05",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-5",
+          "options": [
+            {
+              "id": "zt-03-v03",
+              "text": "入住"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-03-v05",
+              "text": "房间"
+            }
+          ],
+          "answer": "zt-03-v05",
+          "expected": "房间",
+          "explanation": "The visible scene supports 房间 (room). Use it in a full sentence: 服务员：两个房间一共是3,000泰铢，",
+          "vocabularyId": "zt-03-v05",
+          "sourceRefs": [
+            "zt-03-slide-006"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-03-visual-word-v07",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "key-card",
+          "options": [
+            {
+              "id": "zt-03-v03",
+              "text": "入住"
+            },
+            {
+              "id": "zt-03-v05",
+              "text": "房间"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            }
+          ],
+          "answer": "zt-03-v07",
+          "expected": "房卡",
+          "explanation": "The visible scene supports 房卡 (room key card). Use it in a full sentence: 这是你们的房卡。",
+          "vocabularyId": "zt-03-v07",
+          "sourceRefs": [
+            "zt-03-slide-006"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-03-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "checkin"
+            },
+            {
+              "id": "1",
+              "imageId": "source-5"
+            },
+            {
+              "id": "2",
+              "imageId": "key-card"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v05",
+              "text": "房间"
+            },
+            {
+              "id": "zt-03-v03",
+              "text": "入住"
+            }
+          ],
+          "answer": [
+            "zt-03-v03",
+            "zt-03-v05",
+            "zt-03-v07"
+          ],
+          "expected": "入住 / 房间 / 房卡",
+          "explanation": "Match visible objects or actions, not the order of the options. 入住 — to check in; stay；房间 — room；房卡 — room key card",
+          "sourceRefs": [
+            "zt-03-slide-003",
+            "zt-03-slide-006"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-03-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "checkin",
+          "sentence": "您好，我们想办理____。",
+          "accepted": [
+            "入住"
+          ],
+          "expected": "入住",
+          "explanation": "The missing expression is 入住. to check in; stay. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-03-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-03-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 到酒店了. Do not invent the location, price or current travel rules.",
+          "imageId": "reception",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-03-slide-005"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "visual-checkin-order",
+          "type": "picture_sequence",
+          "title": "Build a check-in conversation",
+          "prompt": "For this fictional hotel role-play, arrange the communication steps. This is not a claim about required legal check-in procedures. Choose first → last.",
+          "panels": [
+            {
+              "id": "welcome",
+              "imageId": "reception",
+              "text": "欢迎光临，请问您有预订吗？"
+            },
+            {
+              "id": "confirm",
+              "imageId": "passport",
+              "text": "我先核对您的姓名和预订信息。"
+            },
+            {
+              "id": "explain",
+              "imageId": "key-card",
+              "text": "这是您的房卡。我向您说明房间位置。"
+            },
+            {
+              "id": "check",
+              "imageId": "room",
+              "text": "请问还有什么需要我帮忙的吗？"
+            }
+          ],
+          "answer": [
+            "welcome",
+            "confirm",
+            "explain",
+            "check"
+          ],
+          "expected": "欢迎问候 → 核对预订 → 说明房卡和位置 → 确认其他需要",
+          "explanation": "The welcome opens the exchange; confirmation comes before issuing a key; an offer of help closes it. Other real procedures vary by hotel.",
+          "sourceRefs": [
+            "zt-03-slide-005",
+            "zt-03-slide-009"
+          ],
+          "origin": "supplementary",
+          "unitId": "zt-03"
+        },
+        {
+          "id": "visual-scene-dialogue",
+          "type": "scene_dialogue",
+          "title": "Read the scene, choose the exchange",
+          "prompt": "The picture shows a guest arriving at a reception desk with a passport. Which exchange fits?",
+          "imageId": "checkin",
+          "options": [
+            {
+              "id": "a",
+              "text": "客人：您好，我想办理入住。\n服务员：您好，请问您有预订吗？"
+            },
+            {
+              "id": "b",
+              "text": "客人：我想尝一尝泰式炒面。\n服务员：请看菜单。"
+            },
+            {
+              "id": "c",
+              "text": "游客：大皇宫怎么走？\n朋友：先直走，然后左转。"
+            }
+          ],
+          "answer": "a",
+          "expected": "您好，我想办理入住。 / 请问您有预订吗？",
+          "explanation": "The passport and reception desk support an arrival/check-in context. Ordering food and street directions belong to different scenes.",
+          "sourceRefs": [
+            "zt-03-slide-005",
+            "zt-03-slide-009"
+          ],
+          "origin": "supplementary",
+          "unitId": "zt-03"
+        },
+        {
+          "id": "visual-professional-response",
+          "type": "situation_response",
+          "title": "A considerate response",
+          "prompt": "A guest is at reception with luggage. In this fictional situation, the confirmed room is not yet ready. Which response explains a useful next step without making an unsupported promise?",
+          "imageId": "checkin",
+          "options": [
+            {
+              "id": "a",
+              "text": "房间还没有准备好。我先帮您确认情况，再向您说明可以选择的安排。"
+            },
+            {
+              "id": "b",
+              "text": "等一下，肯定一分钟就好了。"
+            },
+            {
+              "id": "c",
+              "text": "不是我的事。"
+            }
+          ],
+          "answer": "a",
+          "expected": "房间还没有准备好。我先帮您确认情况，再向您说明可以选择的安排。",
+          "explanation": "It acknowledges the problem, commits to checking and offers a clear follow-up. The one-minute promise is unverified, and the final reply dismisses the guest.",
+          "sourceRefs": [
+            "zt-03-slide-009",
+            "zt-03-slide-011"
+          ],
+          "origin": "supplementary",
+          "unitId": "zt-03"
+        },
+        {
+          "id": "visual-room-object",
+          "type": "hotspot_choice",
+          "title": "Find it in the room",
+          "prompt": "请找一找：房卡在哪儿？ Choose the picture marker that identifies the room key card.",
+          "options": [
+            {
+              "id": "bed",
+              "text": "bed"
+            },
+            {
+              "id": "window",
+              "text": "window"
+            },
+            {
+              "id": "table",
+              "text": "table"
+            },
+            {
+              "id": "door",
+              "text": "door"
+            },
+            {
+              "id": "bag",
+              "text": "bag"
+            },
+            {
+              "id": "card",
+              "text": "card"
+            },
+            {
+              "id": "passport",
+              "text": "passport"
+            }
+          ],
+          "answer": "card",
+          "expected": "房卡在床头柜上。",
+          "explanation": "The small purple card is on the bedside table. The blue booklet nearby is a passport. The room and sentence are supplementary teaching content.",
+          "sourceRefs": [
+            "zt-03-slide-006",
+            "zt-03-slide-008"
+          ],
+          "origin": "supplementary",
+          "unitId": "zt-03"
+        },
+        {
+          "id": "visual-checkin-sentence",
+          "type": "sentence_order",
+          "title": "Build a useful sentence",
+          "prompt": "Use every chunk once to form a polite check-in request. Choose first → last.",
+          "panels": [
+            {
+              "id": "hello",
+              "imageId": "checkin",
+              "text": "您好，"
+            },
+            {
+              "id": "we",
+              "imageId": "checkin",
+              "text": "我们"
+            },
+            {
+              "id": "want",
+              "imageId": "checkin",
+              "text": "要"
+            },
+            {
+              "id": "handle",
+              "imageId": "checkin",
+              "text": "办理"
+            },
+            {
+              "id": "stay",
+              "imageId": "checkin",
+              "text": "入住。"
+            }
+          ],
+          "answer": [
+            "hello",
+            "we",
+            "want",
+            "handle",
+            "stay"
+          ],
+          "expected": "您好，我们要办理入住。",
+          "explanation": "A greeting opens the request. 我们 is the subject, 要 precedes 办理, and 入住 specifies the formalities. This sentence appears in the cited source dialogue.",
+          "sourceRefs": [
+            "zt-03-slide-005"
+          ],
+          "origin": "supplementary",
+          "unitId": "zt-03"
+        }
+      ]
+    },
+    {
+      "id": "zt-04",
+      "title": "请问，大皇宫怎么走？",
+      "sceneId": "directions",
+      "vocabulary": [
+        {
+          "itemId": "zt-04-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v08",
+          "imageId": "source-15",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-04-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-v12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-expression-07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-expression-08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-04-expression-09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-04-visual-word-v08",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-15",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-04-v08",
+              "text": "嘟嘟车"
+            }
+          ],
+          "answer": "zt-04-v08",
+          "expected": "嘟嘟车",
+          "explanation": "The visible scene supports 嘟嘟车 (tuk-tuk). Use it in a full sentence: 也可以到路边等嘟嘟车。",
+          "vocabularyId": "zt-04-v08",
+          "sourceRefs": [
+            "zt-04-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-04-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "source-15",
+          "sentence": "这辆____是什么颜色的？",
+          "accepted": [
+            "嘟嘟车"
+          ],
+          "expected": "嘟嘟车",
+          "explanation": "The missing expression is 嘟嘟车. tuk-tuk. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-04-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-04-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 请问，大皇宫怎么走？. Do not invent the location, price or current travel rules.",
+          "imageId": "directions",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-04-slide-003"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-05",
+      "title": "我们去银行换钱",
+      "sceneId": "bank",
+      "vocabulary": [
+        {
+          "itemId": "zt-05-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-v03",
+          "imageId": "bank",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-05-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-05-expression-10",
+          "imageId": "money",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-05-expression-11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-05-visual-word-v03",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "bank",
+          "options": [
+            {
+              "id": "zt-05-expression-10",
+              "text": "换钱"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-05-v03",
+              "text": "银行"
+            }
+          ],
+          "answer": "zt-05-v03",
+          "expected": "银行",
+          "explanation": "The visible scene supports 银行 (bank). Use it in a full sentence: 佳佳：可以去银行换钱。",
+          "vocabularyId": "zt-05-v03",
+          "sourceRefs": [
+            "zt-05-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-05-visual-word-10",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "money",
+          "options": [
+            {
+              "id": "zt-05-v03",
+              "text": "银行"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-05-expression-10",
+              "text": "换钱"
+            }
+          ],
+          "answer": "zt-05-expression-10",
+          "expected": "换钱",
+          "explanation": "The visible scene supports 换钱 (to exchange money). Use it in a full sentence: 我想先去银行问问怎么换钱。",
+          "vocabularyId": "zt-05-expression-10",
+          "sourceRefs": [
+            "zt-05-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-05-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "bank"
+            },
+            {
+              "id": "1",
+              "imageId": "money"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-05-expression-10",
+              "text": "换钱"
+            },
+            {
+              "id": "zt-05-v03",
+              "text": "银行"
+            }
+          ],
+          "answer": [
+            "zt-05-v03",
+            "zt-05-expression-10"
+          ],
+          "expected": "银行 / 换钱",
+          "explanation": "Match visible objects or actions, not the order of the options. 银行 — bank；换钱 — to exchange money",
+          "sourceRefs": [
+            "zt-05-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-05-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "bank",
+          "sentence": "请问，____在哪儿？",
+          "accepted": [
+            "银行"
+          ],
+          "expected": "银行",
+          "explanation": "The missing expression is 银行. bank. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-05-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-05-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 我们去银行换钱. Do not invent the location, price or current travel rules.",
+          "imageId": "bank",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-05-slide-003"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-06",
+      "title": "坐嘟嘟车还是出租车？",
+      "sceneId": "source-15",
+      "vocabulary": [
+        {
+          "itemId": "zt-06-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v09",
+          "imageId": "airplane",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-06-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-expression-12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-06-expression-13",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-06-visual-word-v09",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "airplane",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-06-v09",
+              "text": "飞机"
+            }
+          ],
+          "answer": "zt-06-v09",
+          "expected": "飞机",
+          "explanation": "The visible scene supports 飞机 (aeroplane). Use it in a full sentence: 嘟嘟车司机：你们怎么来的？坐飞机还是火车？",
+          "vocabularyId": "zt-06-v09",
+          "sourceRefs": [
+            "zt-06-slide-006"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-06-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "airplane",
+          "sentence": "请用“飞机”完成练习：图片中的主题是____。",
+          "accepted": [
+            "飞机"
+          ],
+          "expected": "飞机",
+          "explanation": "The missing expression is 飞机. aeroplane. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-06-slide-006"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-06-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 坐嘟嘟车还是出租车？. Do not invent the location, price or current travel rules.",
+          "imageId": "source-15",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-06-slide-003"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-07",
+      "title": "清迈有很多寺庙。",
+      "sceneId": "source-19",
+      "vocabulary": [
+        {
+          "itemId": "zt-07-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v03",
+          "imageId": "source-19",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-07-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v09",
+          "imageId": "market",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-07-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-07-v12",
+          "imageId": "source-18",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-07-visual-word-v03",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-19",
+          "options": [
+            {
+              "id": "zt-07-v09",
+              "text": "水果"
+            },
+            {
+              "id": "zt-07-v12",
+              "text": "寺庙"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-07-v03",
+              "text": "夜市"
+            }
+          ],
+          "answer": "zt-07-v03",
+          "expected": "夜市",
+          "explanation": "The visible scene supports 夜市 (night market). Use it in a full sentence: 素察：今天是星期天，周末夜市有很多人。",
+          "vocabularyId": "zt-07-v03",
+          "sourceRefs": [
+            "zt-07-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-07-visual-word-v09",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "market",
+          "options": [
+            {
+              "id": "zt-07-v03",
+              "text": "夜市"
+            },
+            {
+              "id": "zt-07-v12",
+              "text": "寺庙"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-07-v09",
+              "text": "水果"
+            }
+          ],
+          "answer": "zt-07-v09",
+          "expected": "水果",
+          "explanation": "The visible scene supports 水果 (fruit). Use it in a full sentence: 素察：这儿有很多水果，你想吃什么？",
+          "vocabularyId": "zt-07-v09",
+          "sourceRefs": [
+            "zt-07-slide-005"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-07-visual-word-v12",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-18",
+          "options": [
+            {
+              "id": "zt-07-v03",
+              "text": "夜市"
+            },
+            {
+              "id": "zt-07-v09",
+              "text": "水果"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-07-v12",
+              "text": "寺庙"
+            }
+          ],
+          "answer": "zt-07-v12",
+          "expected": "寺庙",
+          "explanation": "The visible scene supports 寺庙 (temple). Use it in a full sentence: 佳佳：清迈有很多寺庙，",
+          "vocabularyId": "zt-07-v12",
+          "sourceRefs": [
+            "zt-07-slide-007"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-07-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "source-19"
+            },
+            {
+              "id": "1",
+              "imageId": "market"
+            },
+            {
+              "id": "2",
+              "imageId": "source-18"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-07-v12",
+              "text": "寺庙"
+            },
+            {
+              "id": "zt-07-v09",
+              "text": "水果"
+            },
+            {
+              "id": "zt-07-v03",
+              "text": "夜市"
+            }
+          ],
+          "answer": [
+            "zt-07-v03",
+            "zt-07-v09",
+            "zt-07-v12"
+          ],
+          "expected": "夜市 / 水果 / 寺庙",
+          "explanation": "Match visible objects or actions, not the order of the options. 夜市 — night market；水果 — fruit；寺庙 — temple",
+          "sourceRefs": [
+            "zt-07-slide-002",
+            "zt-07-slide-005",
+            "zt-07-slide-007"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-07-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "source-19",
+          "sentence": "晚上我们去____逛一逛。",
+          "accepted": [
+            "夜市"
+          ],
+          "expected": "夜市",
+          "explanation": "The missing expression is 夜市. night market. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-07-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-07-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 清迈有很多寺庙。. Do not invent the location, price or current travel rules.",
+          "imageId": "source-19",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-07-slide-004"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-08",
+      "title": "爬山累不累？",
+      "sceneId": "source-22",
+      "vocabulary": [
+        {
+          "itemId": "zt-08-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v02",
+          "imageId": "mountain",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-08-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-08-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-08-visual-word-v02",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "mountain",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-08-v02",
+              "text": "爬山"
+            }
+          ],
+          "answer": "zt-08-v02",
+          "expected": "爬山",
+          "explanation": "The visible scene supports 爬山 (to hike; climb a mountain). Use it in a full sentence: 佳佳：我不在家，我和我的家人去爬山了。",
+          "vocabularyId": "zt-08-v02",
+          "sourceRefs": [
+            "zt-08-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-08-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "mountain",
+          "sentence": "明天我们一起去____，怎么样？",
+          "accepted": [
+            "爬山"
+          ],
+          "expected": "爬山",
+          "explanation": "The missing expression is 爬山. to hike; climb a mountain. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-08-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-08-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 爬山累不累？. Do not invent the location, price or current travel rules.",
+          "imageId": "source-22",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-08-slide-004"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-09",
+      "title": "尝一尝泰式炒面吧！",
+      "sceneId": "source-26",
+      "vocabulary": [
+        {
+          "itemId": "zt-09-v01",
+          "imageId": "menu",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-09-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v08",
+          "imageId": "food",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-09-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v13",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-v14",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-09-expression-14",
+          "imageId": "source-26",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-09-expression-15",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-09-visual-word-v01",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "menu",
+          "options": [
+            {
+              "id": "zt-09-v08",
+              "text": "面"
+            },
+            {
+              "id": "zt-09-expression-14",
+              "text": "泰式炒面"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-09-v01",
+              "text": "菜单"
+            }
+          ],
+          "answer": "zt-09-v01",
+          "expected": "菜单",
+          "explanation": "The visible scene supports 菜单 (menu). Use it in a full sentence: 服务员：您好，这是菜单，请问您想点什么菜？",
+          "vocabularyId": "zt-09-v01",
+          "sourceRefs": [
+            "zt-09-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-09-visual-word-v08",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "food",
+          "options": [
+            {
+              "id": "zt-09-v01",
+              "text": "菜单"
+            },
+            {
+              "id": "zt-09-expression-14",
+              "text": "泰式炒面"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-09-v08",
+              "text": "面"
+            }
+          ],
+          "answer": "zt-09-v08",
+          "expected": "面",
+          "explanation": "The visible scene supports 面 (noodles). Use it in a full sentence: 服务员：尝一尝泰式炒面吧！",
+          "vocabularyId": "zt-09-v08",
+          "sourceRefs": [
+            "zt-09-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-09-visual-word-14",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-26",
+          "options": [
+            {
+              "id": "zt-09-v01",
+              "text": "菜单"
+            },
+            {
+              "id": "zt-09-v08",
+              "text": "面"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-09-expression-14",
+              "text": "泰式炒面"
+            }
+          ],
+          "answer": "zt-09-expression-14",
+          "expected": "泰式炒面",
+          "explanation": "The visible scene supports 泰式炒面 (Thai-style stir-fried noodles). Use it in a full sentence: 请确认一下，是两份泰式炒面吗？",
+          "vocabularyId": "zt-09-expression-14",
+          "sourceRefs": [
+            "zt-09-slide-004"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-09-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "menu"
+            },
+            {
+              "id": "1",
+              "imageId": "food"
+            },
+            {
+              "id": "2",
+              "imageId": "source-26"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-09-expression-14",
+              "text": "泰式炒面"
+            },
+            {
+              "id": "zt-09-v08",
+              "text": "面"
+            },
+            {
+              "id": "zt-09-v01",
+              "text": "菜单"
+            }
+          ],
+          "answer": [
+            "zt-09-v01",
+            "zt-09-v08",
+            "zt-09-expression-14"
+          ],
+          "expected": "菜单 / 面 / 泰式炒面",
+          "explanation": "Match visible objects or actions, not the order of the options. 菜单 — menu；面 — noodles；泰式炒面 — Thai-style stir-fried noodles",
+          "sourceRefs": [
+            "zt-09-slide-002",
+            "zt-09-slide-003",
+            "zt-09-slide-004"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-09-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "menu",
+          "sentence": "您好，请给我看一下____。",
+          "accepted": [
+            "菜单"
+          ],
+          "expected": "菜单",
+          "explanation": "The missing expression is 菜单. menu. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-09-slide-002"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-09-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 尝一尝泰式炒面吧！. Do not invent the location, price or current travel rules.",
+          "imageId": "source-26",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-09-slide-004"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-10",
+      "title": "我们几点去机场？",
+      "sceneId": "airport",
+      "vocabulary": [
+        {
+          "itemId": "zt-10-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-10-expression-16",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-10-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 我们几点去机场？. Do not invent the location, price or current travel rules.",
+          "imageId": "airport",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-10-slide-005"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-11",
+      "title": "这里真漂亮 !",
+      "sceneId": "source-31",
+      "vocabulary": [
+        {
+          "itemId": "zt-11-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v05",
+          "imageId": "source-31",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-11-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-expression-17",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-expression-18",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-11-expression-19",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-11-visual-word-v05",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-31",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-11-v05",
+              "text": "沙滩"
+            }
+          ],
+          "answer": "zt-11-v05",
+          "expected": "沙滩",
+          "explanation": "The visible scene supports 沙滩 (beach; sand). Use it in a full sentence: 小爱：我们一起在沙滩上走走吧！",
+          "vocabularyId": "zt-11-v05",
+          "sourceRefs": [
+            "zt-11-slide-004"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-11-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "source-31",
+          "sentence": "这片____真漂亮！",
+          "accepted": [
+            "沙滩"
+          ],
+          "expected": "沙滩",
+          "explanation": "The missing expression is 沙滩. beach; sand. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-11-slide-004"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-11-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 这里真漂亮 !. Do not invent the location, price or current travel rules.",
+          "imageId": "source-31",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-11-slide-005"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-12",
+      "title": "这件衣服多少钱？",
+      "sceneId": "clothes",
+      "vocabulary": [
+        {
+          "itemId": "zt-12-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v05",
+          "imageId": "clothes",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-12-v06",
+          "imageId": "clothes",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-12-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-v12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-12-expression-20",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-12-visual-word-v05",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "clothes",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-12-v05",
+              "text": "衣服"
+            }
+          ],
+          "answer": "zt-12-v05",
+          "expected": "衣服",
+          "explanation": "The visible scene supports 衣服 (clothes). Use it in a full sentence: 小爱：我想买一件衣服，我们去二楼看看吧！",
+          "vocabularyId": "zt-12-v05",
+          "sourceRefs": [
+            "zt-12-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-12-visual-word-v06",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "clothes",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-12-v06",
+              "text": "服装"
+            }
+          ],
+          "answer": "zt-12-v06",
+          "expected": "服装",
+          "explanation": "The visible scene supports 服装 (clothing). Use it in a full sentence: 二楼是服装，三楼是电子产品。",
+          "vocabularyId": "zt-12-v06",
+          "sourceRefs": [
+            "zt-12-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-12-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "clothes"
+            },
+            {
+              "id": "1",
+              "imageId": "clothes"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-12-v06",
+              "text": "服装"
+            },
+            {
+              "id": "zt-12-v05",
+              "text": "衣服"
+            }
+          ],
+          "answer": [
+            "zt-12-v05",
+            "zt-12-v06"
+          ],
+          "expected": "衣服 / 服装",
+          "explanation": "Match visible objects or actions, not the order of the options. 衣服 — clothes；服装 — clothing",
+          "sourceRefs": [
+            "zt-12-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-12-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "clothes",
+          "sentence": "这件____多少钱？",
+          "accepted": [
+            "衣服"
+          ],
+          "expected": "衣服",
+          "explanation": "The missing expression is 衣服. clothes. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-12-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-12-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 这件衣服多少钱？. Do not invent the location, price or current travel rules.",
+          "imageId": "clothes",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-12-slide-004"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-13",
+      "title": "街上变得热闹了",
+      "sceneId": "source-34",
+      "vocabulary": [
+        {
+          "itemId": "zt-13-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-13-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-13-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 街上变得热闹了. Do not invent the location, price or current travel rules.",
+          "imageId": "source-34",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-13-slide-003"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-14",
+      "title": "一起去看日出，怎么样？",
+      "sceneId": "sunrise",
+      "vocabulary": [
+        {
+          "itemId": "zt-14-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-14-v12",
+          "imageId": "sunrise",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-14-v13",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-14-visual-word-v12",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "sunrise",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-14-v12",
+              "text": "日出"
+            }
+          ],
+          "answer": "zt-14-v12",
+          "expected": "日出",
+          "explanation": "The visible scene supports 日出 (sunrise). Use it in a full sentence: 小爱：我听说查汶海滩的日出很漂亮。",
+          "vocabularyId": "zt-14-v12",
+          "sourceRefs": [
+            "zt-14-slide-008"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-14-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "sunrise",
+          "sentence": "明天我们一起看____，怎么样？",
+          "accepted": [
+            "日出"
+          ],
+          "expected": "日出",
+          "explanation": "The missing expression is 日出. sunrise. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-14-slide-008"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-14-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 一起去看日出，怎么样？. Do not invent the location, price or current travel rules.",
+          "imageId": "sunrise",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-14-slide-006"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-15",
+      "title": "这家比那家近一点儿。",
+      "sceneId": "source-41",
+      "vocabulary": [
+        {
+          "itemId": "zt-15-v01",
+          "imageId": "source-40",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-15-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-v06",
+          "imageId": "source-42",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-15-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-v08",
+          "imageId": "source-41",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-15-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-expression-21",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-15-expression-22",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-15-visual-word-v01",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-40",
+          "options": [
+            {
+              "id": "zt-15-v06",
+              "text": "炸鸡"
+            },
+            {
+              "id": "zt-15-v08",
+              "text": "青木瓜沙拉"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-15-v01",
+              "text": "咖啡店"
+            }
+          ],
+          "answer": "zt-15-v01",
+          "expected": "咖啡店",
+          "explanation": "The visible scene supports 咖啡店 (café). Use it in a full sentence: 下午素察带我和小乐去了一家咖啡店。",
+          "vocabularyId": "zt-15-v01",
+          "sourceRefs": [
+            "zt-15-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-15-visual-word-v06",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-42",
+          "options": [
+            {
+              "id": "zt-15-v01",
+              "text": "咖啡店"
+            },
+            {
+              "id": "zt-15-v08",
+              "text": "青木瓜沙拉"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-15-v06",
+              "text": "炸鸡"
+            }
+          ],
+          "answer": "zt-15-v06",
+          "expected": "炸鸡",
+          "explanation": "The visible scene supports 炸鸡 (fried chicken). Use it in a full sentence: 小爱：佳佳，炸鸡和烤猪颈肉，你想吃哪个？",
+          "vocabularyId": "zt-15-v06",
+          "sourceRefs": [
+            "zt-15-slide-009"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-15-visual-word-v08",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-41",
+          "options": [
+            {
+              "id": "zt-15-v01",
+              "text": "咖啡店"
+            },
+            {
+              "id": "zt-15-v06",
+              "text": "炸鸡"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-15-v08",
+              "text": "青木瓜沙拉"
+            }
+          ],
+          "answer": "zt-15-v08",
+          "expected": "青木瓜沙拉",
+          "explanation": "The visible scene supports 青木瓜沙拉 (green papaya salad). Use it in a full sentence: 小爱：那我们点一份烤猪颈肉、一份青木瓜沙拉、",
+          "vocabularyId": "zt-15-v08",
+          "sourceRefs": [
+            "zt-15-slide-009"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-15-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "source-40"
+            },
+            {
+              "id": "1",
+              "imageId": "source-42"
+            },
+            {
+              "id": "2",
+              "imageId": "source-41"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-15-v08",
+              "text": "青木瓜沙拉"
+            },
+            {
+              "id": "zt-15-v06",
+              "text": "炸鸡"
+            },
+            {
+              "id": "zt-15-v01",
+              "text": "咖啡店"
+            }
+          ],
+          "answer": [
+            "zt-15-v01",
+            "zt-15-v06",
+            "zt-15-v08"
+          ],
+          "expected": "咖啡店 / 炸鸡 / 青木瓜沙拉",
+          "explanation": "Match visible objects or actions, not the order of the options. 咖啡店 — café；炸鸡 — fried chicken；青木瓜沙拉 — green papaya salad",
+          "sourceRefs": [
+            "zt-15-slide-003",
+            "zt-15-slide-009"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-15-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "source-40",
+          "sentence": "这家____离这里远不远？",
+          "accepted": [
+            "咖啡店"
+          ],
+          "expected": "咖啡店",
+          "explanation": "The missing expression is 咖啡店. café. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-15-slide-003"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-15-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 这家比那家近一点儿。. Do not invent the location, price or current travel rules.",
+          "imageId": "source-41",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-15-slide-007"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-16",
+      "title": "泰国的水灯节浪漫极了!",
+      "sceneId": "source-44",
+      "vocabulary": [
+        {
+          "itemId": "zt-16-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v05",
+          "imageId": "source-44",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-16-v06",
+          "imageId": "lantern",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-16-v07",
+          "imageId": "source-43",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-16-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v12",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v13",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-16-v14",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-16-visual-word-v05",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-44",
+          "options": [
+            {
+              "id": "zt-16-v06",
+              "text": "孔明灯"
+            },
+            {
+              "id": "zt-16-v07",
+              "text": "水灯节"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-16-v05",
+              "text": "水灯"
+            }
+          ],
+          "answer": "zt-16-v05",
+          "expected": "水灯",
+          "explanation": "The visible scene supports 水灯 (floating lantern; krathong). Use it in a full sentence: 小爱：明天是水灯节吗？",
+          "vocabularyId": "zt-16-v05",
+          "sourceRefs": [
+            "zt-16-slide-004",
+            "zt-16-slide-007"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-16-visual-word-v06",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "lantern",
+          "options": [
+            {
+              "id": "zt-16-v05",
+              "text": "水灯"
+            },
+            {
+              "id": "zt-16-v07",
+              "text": "水灯节"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-16-v06",
+              "text": "孔明灯"
+            }
+          ],
+          "answer": "zt-16-v06",
+          "expected": "孔明灯",
+          "explanation": "The visible scene supports 孔明灯 (sky lantern). Use it in a full sentence: 佳佳：晚上大家都去放水灯和孔明灯。",
+          "vocabularyId": "zt-16-v06",
+          "sourceRefs": [
+            "zt-16-slide-004",
+            "zt-16-slide-007"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-16-visual-word-v07",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "source-43",
+          "options": [
+            {
+              "id": "zt-16-v05",
+              "text": "水灯"
+            },
+            {
+              "id": "zt-16-v06",
+              "text": "孔明灯"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-16-v07",
+              "text": "水灯节"
+            }
+          ],
+          "answer": "zt-16-v07",
+          "expected": "水灯节",
+          "explanation": "The visible scene supports 水灯节 (Loy Krathong festival). Use it in a full sentence: 小爱：明天是水灯节吗？",
+          "vocabularyId": "zt-16-v07",
+          "sourceRefs": [
+            "zt-16-slide-004",
+            "zt-16-slide-007"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-16-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "source-44"
+            },
+            {
+              "id": "1",
+              "imageId": "lantern"
+            },
+            {
+              "id": "2",
+              "imageId": "source-43"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-16-v07",
+              "text": "水灯节"
+            },
+            {
+              "id": "zt-16-v06",
+              "text": "孔明灯"
+            },
+            {
+              "id": "zt-16-v05",
+              "text": "水灯"
+            }
+          ],
+          "answer": [
+            "zt-16-v05",
+            "zt-16-v06",
+            "zt-16-v07"
+          ],
+          "expected": "水灯 / 孔明灯 / 水灯节",
+          "explanation": "Match visible objects or actions, not the order of the options. 水灯 — floating lantern; krathong；孔明灯 — sky lantern；水灯节 — Loy Krathong festival",
+          "sourceRefs": [
+            "zt-16-slide-004",
+            "zt-16-slide-007"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-16-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "source-44",
+          "sentence": "这个____真漂亮！",
+          "accepted": [
+            "水灯"
+          ],
+          "expected": "水灯",
+          "explanation": "The missing expression is 水灯. floating lantern; krathong. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-16-slide-004",
+            "zt-16-slide-007"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-16-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 泰国的水灯节浪漫极了!. Do not invent the location, price or current travel rules.",
+          "imageId": "source-44",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-16-slide-008"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-17",
+      "title": "泰国的见面礼和中国一样吗？",
+      "sceneId": "wai",
+      "vocabulary": [
+        {
+          "itemId": "zt-17-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v06",
+          "imageId": "wai",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-17-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-17-expression-23",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-17-visual-word-v06",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "wai",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-17-v06",
+              "text": "合十"
+            }
+          ],
+          "answer": "zt-17-v06",
+          "expected": "合十",
+          "explanation": "The visible scene supports 合十 (to press palms together). Use it in a full sentence: 佳佳：不一样。泰国人见面行“合十礼”。",
+          "vocabularyId": "zt-17-v06",
+          "sourceRefs": [
+            "zt-17-slide-007",
+            "zt-17-slide-008"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-17-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "wai",
+          "sentence": "请教我怎样____。",
+          "accepted": [
+            "合十"
+          ],
+          "expected": "合十",
+          "explanation": "The missing expression is 合十. to press palms together. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-17-slide-007",
+            "zt-17-slide-008"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-17-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 泰国的见面礼和中国一样吗？. Do not invent the location, price or current travel rules.",
+          "imageId": "wai",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-17-slide-009"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-18",
+      "title": "泼水的人越来越多了！",
+      "sceneId": "splash",
+      "vocabulary": [
+        {
+          "itemId": "zt-18-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v05",
+          "imageId": "splash",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-18-v06",
+          "imageId": "splash",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-18-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-18-expression-24",
+          "imageId": "splash",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-18-visual-word-v05",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "splash",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-18-v05",
+              "text": "宋干节"
+            }
+          ],
+          "answer": "zt-18-v05",
+          "expected": "宋干节",
+          "explanation": "The visible scene supports 宋干节 (Songkran festival). Use it in a full sentence: 佳佳：今天是宋干节，大家在打水仗。",
+          "vocabularyId": "zt-18-v05",
+          "sourceRefs": [
+            "zt-18-slide-004",
+            "zt-18-slide-005"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-18-visual-word-v06",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "splash",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-18-v06",
+              "text": "泼"
+            }
+          ],
+          "answer": "zt-18-v06",
+          "expected": "泼",
+          "explanation": "The visible scene supports 泼 (to splash). Use it in a full sentence: 佳佳：泼水的人越来越多了，我的衣服都湿了。",
+          "vocabularyId": "zt-18-v06",
+          "sourceRefs": [
+            "zt-18-slide-008",
+            "zt-18-slide-010"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-18-visual-word-24",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "splash",
+          "options": [
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-03-v13",
+              "text": "行李"
+            },
+            {
+              "id": "zt-18-expression-24",
+              "text": "泼水节"
+            }
+          ],
+          "answer": "zt-18-expression-24",
+          "expected": "泼水节",
+          "explanation": "The visible scene supports 泼水节 (Water-Splashing Festival; name used here for Songkran). Use it in a full sentence: 课文里的泼水节活动让说话人很开心。",
+          "vocabularyId": "zt-18-expression-24",
+          "sourceRefs": [
+            "zt-18-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-18-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "splash"
+            },
+            {
+              "id": "1",
+              "imageId": "splash"
+            },
+            {
+              "id": "2",
+              "imageId": "splash"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-18-expression-24",
+              "text": "泼水节"
+            },
+            {
+              "id": "zt-18-v06",
+              "text": "泼"
+            },
+            {
+              "id": "zt-18-v05",
+              "text": "宋干节"
+            }
+          ],
+          "answer": [
+            "zt-18-v05",
+            "zt-18-v06",
+            "zt-18-expression-24"
+          ],
+          "expected": "宋干节 / 泼 / 泼水节",
+          "explanation": "Match visible objects or actions, not the order of the options. 宋干节 — Songkran festival；泼 — to splash；泼水节 — Water-Splashing Festival; name used here for Songkran",
+          "sourceRefs": [
+            "zt-18-slide-004",
+            "zt-18-slide-005",
+            "zt-18-slide-008",
+            "zt-18-slide-010",
+            "zt-18-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-18-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "splash",
+          "sentence": "请用“宋干节”完成练习：图片中的主题是____。",
+          "accepted": [
+            "宋干节"
+          ],
+          "expected": "宋干节",
+          "explanation": "The missing expression is 宋干节. Songkran festival. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-18-slide-004",
+            "zt-18-slide-005"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-18-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 泼水的人越来越多了！. Do not invent the location, price or current travel rules.",
+          "imageId": "splash",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-18-slide-006"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-19",
+      "title": "把这个花篮送给老师",
+      "sceneId": "flowers",
+      "vocabulary": [
+        {
+          "itemId": "zt-19-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v09",
+          "imageId": "gift",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-19-v10",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v11",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-19-v12",
+          "imageId": "flowers",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-19-visual-word-v09",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "gift",
+          "options": [
+            {
+              "id": "zt-19-v12",
+              "text": "花篮"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-19-v09",
+              "text": "礼物"
+            }
+          ],
+          "answer": "zt-19-v09",
+          "expected": "礼物",
+          "explanation": "The visible scene supports 礼物 (gift). Use it in a full sentence: 素察：明天是拜师节，你打算送给老师什么礼物？",
+          "vocabularyId": "zt-19-v09",
+          "sourceRefs": [
+            "zt-19-slide-008",
+            "zt-19-slide-010"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-19-visual-word-v12",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "flowers",
+          "options": [
+            {
+              "id": "zt-19-v09",
+              "text": "礼物"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-19-v12",
+              "text": "花篮"
+            }
+          ],
+          "answer": "zt-19-v12",
+          "expected": "花篮",
+          "explanation": "The visible scene supports 花篮 (flower basket). Use it in a full sentence: 素察：我想把这个花篮送给老师。",
+          "vocabularyId": "zt-19-v12",
+          "sourceRefs": [
+            "zt-19-slide-009",
+            "zt-19-slide-010"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-19-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "gift"
+            },
+            {
+              "id": "1",
+              "imageId": "flowers"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-19-v12",
+              "text": "花篮"
+            },
+            {
+              "id": "zt-19-v09",
+              "text": "礼物"
+            }
+          ],
+          "answer": [
+            "zt-19-v09",
+            "zt-19-v12"
+          ],
+          "expected": "礼物 / 花篮",
+          "explanation": "Match visible objects or actions, not the order of the options. 礼物 — gift；花篮 — flower basket",
+          "sourceRefs": [
+            "zt-19-slide-008",
+            "zt-19-slide-010",
+            "zt-19-slide-009"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-19-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "gift",
+          "sentence": "我想把这份____送给老师。",
+          "accepted": [
+            "礼物"
+          ],
+          "expected": "礼物",
+          "explanation": "The missing expression is 礼物. gift. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-19-slide-008",
+            "zt-19-slide-010"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-19-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 把这个花篮送给老师. Do not invent the location, price or current travel rules.",
+          "imageId": "flowers",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-19-slide-006"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    },
+    {
+      "id": "zt-20",
+      "title": "不要穿鞋进佛殿",
+      "sceneId": "temple",
+      "vocabulary": [
+        {
+          "itemId": "zt-20-v01",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v02",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v03",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v04",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v05",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v06",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v07",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v08",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v09",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        },
+        {
+          "itemId": "zt-20-v10",
+          "imageId": "shoes",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-20-v11",
+          "imageId": "temple",
+          "status": "mapped_pending_teacher",
+          "reason": null
+        },
+        {
+          "itemId": "zt-20-expression-25",
+          "imageId": null,
+          "status": "context_only",
+          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+        }
+      ],
+      "activities": [
+        {
+          "id": "zt-20-visual-word-v10",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "shoes",
+          "options": [
+            {
+              "id": "zt-20-v11",
+              "text": "佛殿"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-20-v10",
+              "text": "鞋"
+            }
+          ],
+          "answer": "zt-20-v10",
+          "expected": "鞋",
+          "explanation": "The visible scene supports 鞋 (shoes). Use it in a full sentence: 佳佳:可以，但是请不要穿鞋进佛殿。",
+          "vocabularyId": "zt-20-v10",
+          "sourceRefs": [
+            "zt-20-slide-010",
+            "zt-20-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-20-visual-word-v11",
+          "type": "picture_choice",
+          "title": "See it. Name it.",
+          "prompt": "Look at the picture. Which Chinese expression fits?",
+          "imageId": "temple",
+          "options": [
+            {
+              "id": "zt-20-v10",
+              "text": "鞋"
+            },
+            {
+              "id": "zt-01-v19",
+              "text": "护照"
+            },
+            {
+              "id": "zt-03-v07",
+              "text": "房卡"
+            },
+            {
+              "id": "zt-20-v11",
+              "text": "佛殿"
+            }
+          ],
+          "answer": "zt-20-v11",
+          "expected": "佛殿",
+          "explanation": "The visible scene supports 佛殿 (Buddhist worship hall). Use it in a full sentence: 佳佳:可以，但是请不要穿鞋进佛殿。",
+          "vocabularyId": "zt-20-v11",
+          "sourceRefs": [
+            "zt-20-slide-010",
+            "zt-20-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-20-visual-match",
+          "type": "picture_match",
+          "title": "Make the connections",
+          "prompt": "Match each picture with its Chinese expression. Use every expression once.",
+          "pairs": [
+            {
+              "id": "0",
+              "imageId": "shoes"
+            },
+            {
+              "id": "1",
+              "imageId": "temple"
+            }
+          ],
+          "options": [
+            {
+              "id": "zt-20-v11",
+              "text": "佛殿"
+            },
+            {
+              "id": "zt-20-v10",
+              "text": "鞋"
+            }
+          ],
+          "answer": [
+            "zt-20-v10",
+            "zt-20-v11"
+          ],
+          "expected": "鞋 / 佛殿",
+          "explanation": "Match visible objects or actions, not the order of the options. 鞋 — shoes；佛殿 — Buddhist worship hall",
+          "sourceRefs": [
+            "zt-20-slide-010",
+            "zt-20-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-20-visual-cloze",
+          "type": "picture_cloze",
+          "title": "From picture to sentence",
+          "prompt": "Complete the sentence with the pictured expression. This is a newly authored context.",
+          "imageId": "shoes",
+          "sentence": "请不要穿____进佛殿。",
+          "accepted": [
+            "鞋"
+          ],
+          "expected": "鞋",
+          "explanation": "The missing expression is 鞋. shoes. The sentence is supplementary practice, not a textbook quotation.",
+          "sourceRefs": [
+            "zt-20-slide-010",
+            "zt-20-slide-011"
+          ],
+          "origin": "supplementary"
+        },
+        {
+          "id": "zt-20-visual-description",
+          "type": "photo_description",
+          "title": "Notice → interpret → communicate",
+          "prompt": "Look closely. In 40–90 Chinese characters, distinguish two visible details from one inference. Then connect the scene to this unit’s topic: 不要穿鞋进佛殿. Do not invent the location, price or current travel rules.",
+          "imageId": "temple",
+          "minimum": 40,
+          "criteria": [
+            "Comprehension",
+            "Language accuracy",
+            "Organization",
+            "Audience awareness"
+          ],
+          "model": "A valid response identifies visible evidence, uses one expression from this unit, and makes a useful audience-aware connection. Several answers are possible; a teacher must assess the Chinese.",
+          "explanation": "Save your own observation first. A length check is not a language-quality score.",
+          "sourceRefs": [
+            "zt-20-slide-007"
+          ],
+          "origin": "supplementary"
+        }
+      ]
+    }
+  ],
+  "hotel": {
+    "image": "/assets/visual/hotel-room.svg",
+    "alt": "A fictional hotel room containing a bed, window, bedside table, room door, suitcase, key card and passport.",
+    "items": [
+      {
+        "id": "bed",
+        "chinese": "床",
+        "pinyin": "chuáng",
+        "meaning": "bed",
+        "example": "房间里有一张床。",
+        "x": 54,
+        "y": 60,
+        "origin": "supplementary"
+      },
+      {
+        "id": "window",
+        "chinese": "窗户",
+        "pinyin": "chuānghu",
+        "meaning": "window",
+        "example": "请问，窗户可以打开吗？",
+        "x": 20,
+        "y": 29,
+        "origin": "supplementary"
+      },
+      {
+        "id": "table",
+        "chinese": "床头柜",
+        "pinyin": "chuángtóuguì",
+        "meaning": "bedside table",
+        "example": "我把房卡放在床头柜上了。",
+        "x": 79,
+        "y": 73,
+        "origin": "supplementary"
+      },
+      {
+        "id": "door",
+        "chinese": "房门",
+        "pinyin": "fángmén",
+        "meaning": "room door",
+        "example": "出门前请确认房门已经关好。",
+        "x": 92,
+        "y": 39,
+        "origin": "supplementary"
+      },
+      {
+        "id": "bag",
+        "chinese": "行李",
+        "pinyin": "xíngli",
+        "meaning": "luggage",
+        "example": "请问，可以帮我寄存行李吗？",
+        "x": 28,
+        "y": 75,
+        "origin": "supplementary"
+      },
+      {
+        "id": "card",
+        "chinese": "房卡",
+        "pinyin": "fángkǎ",
+        "meaning": "room key card",
+        "example": "这是您的房卡，请收好。",
+        "x": 78,
+        "y": 66,
+        "origin": "supplementary"
+      },
+      {
+        "id": "passport",
+        "chinese": "护照",
+        "pinyin": "hùzhào",
+        "meaning": "passport",
+        "example": "请问，您带护照了吗？",
+        "x": 82,
+        "y": 57,
+        "origin": "supplementary"
+      }
+    ]
+  },
+  "places": [
+    {
+      "id": "bangkok",
+      "chinese": "曼谷",
+      "english": "Bangkok",
+      "x": 49,
+      "y": 57,
+      "units": [
+        "zt-02",
+        "zt-04"
+      ],
+      "imageId": "source-4",
+      "prompt": "Use the source dialogue to propose a destination and explain how you would clarify the route."
+    },
+    {
+      "id": "chiangmai",
+      "chinese": "清迈",
+      "english": "Chiang Mai",
+      "x": 37,
+      "y": 19,
+      "units": [
+        "zt-06",
+        "zt-07",
+        "zt-08"
+      ],
+      "imageId": "source-19",
+      "prompt": "Recommend a visit using one expression about distance, transport or personal preference. Do not identify the source market photograph as a specific venue."
+    },
+    {
+      "id": "phuket",
+      "chinese": "普吉岛",
+      "english": "Phuket",
+      "x": 28,
+      "y": 88,
+      "units": [
+        "zt-11",
+        "zt-20"
+      ],
+      "imageId": "source-31",
+      "prompt": "Combine a beach description with a respectful cultural visit. Distinguish source information from your proposed itinerary."
+    },
+    {
+      "id": "samui",
+      "chinese": "苏梅岛",
+      "english": "Ko Samui",
+      "x": 53,
+      "y": 78,
+      "units": [
+        "zt-14"
+      ],
+      "imageId": "sunrise",
+      "prompt": "Use 一起…怎么样 to suggest an early activity, then ask about the other person’s availability."
+    }
+  ],
+  "dialogue": {
+    "id": "hotel-arrival-story",
+    "origin": "supplementary",
+    "sourceRefs": [
+      "zt-03-slide-005",
+      "zt-03-slide-009"
+    ],
+    "title": "A welcome, one exchange at a time",
+    "notice": "Newly authored role-play based on the unit’s language. No course audio or speech recognition.",
+    "frames": [
+      {
+        "imageId": "checkin",
+        "speaker": "Guest",
+        "chinese": "您好，我想办理入住。"
+      },
+      {
+        "imageId": "reception",
+        "speaker": "Receptionist",
+        "chinese": "您好，请问您有预订吗？"
+      },
+      {
+        "imageId": "passport",
+        "speaker": "Guest",
+        "chinese": "有的，这是我的护照。"
+      },
+      {
+        "imageId": "key-card",
+        "speaker": "Receptionist",
+        "chinese": "谢谢。这是您的房卡。请问还有什么需要我帮忙的吗？"
+      }
+    ]
+  }
+}

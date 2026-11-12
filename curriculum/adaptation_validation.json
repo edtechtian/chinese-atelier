@@ -1,0 +1,20 @@
+{
+  "valid": true,
+  "originalDatasetSha256": "50d54504da64eb3a6d9e4fbb4f6f5c85b95d3ddb4b5ed3d6dadd8e2a7dabd0b9",
+  "counts": {
+    "lessons": 20,
+    "readings": 53,
+    "vocabulary": 268,
+    "patterns": 46,
+    "objectiveItems": 162,
+    "communicationTasks": 60,
+    "liveListeningPlans": 20
+  },
+  "errors": [],
+  "warnings": [],
+  "limitations": [
+    "Editorial adaptations require teacher approval; structural validation is not a teacher or official IB assessment.",
+    "No audio recordings or speech recognition. Listening requires a live partner/teacher.",
+    "Original visual/font and answer-mapping issues remain recorded in source_inventory.md."
+  ]
+}

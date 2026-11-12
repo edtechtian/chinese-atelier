@@ -1,0 +1,17 @@
+{
+  "valid": true,
+  "counts": {
+    "files": 20,
+    "lessons": 20,
+    "slides": 282,
+    "textSlides": 281,
+    "visualPlacements": 847,
+    "renderedSlides": 282
+  },
+  "errors": [],
+  "unresolved": [
+    "L7 S12 image-only; no selectable text",
+    "Standalone EMF images at L7 S4/S6/S8",
+    "Teacher semantic verification of source visuals and answer/blank relationships pending"
+  ]
+}

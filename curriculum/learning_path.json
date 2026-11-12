@@ -1,0 +1,3713 @@
+{
+  "schemaVersion": 1,
+  "origin": "adaptation",
+  "notice": "Microsteps and retrieval variants are editorial activities. Original source records remain separate; teacher approval is pending.",
+  "units": [
+    {
+      "id": "zt-01",
+      "number": 1,
+      "title": "落地签太方便了!",
+      "subtitle": "Arrival & a helpful first response",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-01-step-1",
+          "lessonId": "zt-01",
+          "number": 1,
+          "position": 1,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-01-q-wait",
+            "zt-01-q-process"
+          ],
+          "vocabularyIds": [
+            "zt-01-v01",
+            "zt-01-v02",
+            "zt-01-v03",
+            "zt-01-v04",
+            "zt-01-v05",
+            "zt-01-v06",
+            "zt-01-v07",
+            "zt-01-v08",
+            "zt-01-v09",
+            "zt-01-v10",
+            "zt-01-v11",
+            "zt-01-v12",
+            "zt-01-v13",
+            "zt-01-v14",
+            "zt-01-v15",
+            "zt-01-v16",
+            "zt-01-v17",
+            "zt-01-v18",
+            "zt-01-v19",
+            "zt-01-v20",
+            "zt-01-v21",
+            "zt-01-v22",
+            "zt-01-v23"
+          ],
+          "coreVocabularyIds": [
+            "zt-01-v04",
+            "zt-01-v05",
+            "zt-01-v07",
+            "zt-01-v08",
+            "zt-01-v11",
+            "zt-01-v12",
+            "zt-01-v19",
+            "zt-01-v20",
+            "zt-01-v23"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-01-slide-002",
+            "zt-01-slide-007",
+            "zt-01-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-01-step-2",
+          "lessonId": "zt-01",
+          "number": 2,
+          "position": 2,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-01-q-location",
+            "zt-01-q-inference",
+            "zt-01-q-documents"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-01-reading-6",
+            "zt-01-reading-10",
+            "zt-01-reading-14"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-01-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-01-slide-006",
+            "zt-01-slide-010",
+            "zt-01-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-01-step-3",
+          "lessonId": "zt-01",
+          "number": 3,
+          "position": 3,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-01-q-soften",
+            "zt-01-q-timeline"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-01-pattern-degree",
+            "zt-01-pattern-arrival"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-01-slide-004",
+            "zt-01-slide-005",
+            "zt-01-slide-015",
+            "zt-01-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-01-step-4",
+          "lessonId": "zt-01",
+          "number": 4,
+          "position": 4,
+          "stage": "communicate",
+          "title": "Find each other at arrivals",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-01-q-repair"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-01-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-01-slide-003",
+            "zt-01-slide-004",
+            "zt-01-slide-005",
+            "zt-01-slide-006",
+            "zt-01-slide-010",
+            "zt-01-slide-014",
+            "zt-01-slide-015",
+            "zt-01-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-01-step-5",
+          "lessonId": "zt-01",
+          "number": 5,
+          "position": 5,
+          "stage": "apply",
+          "title": "An airport meeting message",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-01-writing"
+          ],
+          "sourceRefs": [
+            "zt-01-slide-003",
+            "zt-01-slide-004",
+            "zt-01-slide-005",
+            "zt-01-slide-006",
+            "zt-01-slide-010",
+            "zt-01-slide-014",
+            "zt-01-slide-015",
+            "zt-01-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-02",
+      "number": 2,
+      "title": "泰国我来啦！",
+      "subtitle": "Places, perspectives & a shared itinerary",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-02-step-1",
+          "lessonId": "zt-02",
+          "number": 1,
+          "position": 6,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-02-q-additional",
+            "zt-02-q-full-list"
+          ],
+          "vocabularyIds": [
+            "zt-02-v01",
+            "zt-02-v02",
+            "zt-02-v03",
+            "zt-02-v04",
+            "zt-02-v05",
+            "zt-02-v06",
+            "zt-02-v07",
+            "zt-02-v08",
+            "zt-02-v09",
+            "zt-02-v10",
+            "zt-02-v11",
+            "zt-02-v12",
+            "zt-02-v13",
+            "zt-02-v14",
+            "zt-02-v15",
+            "zt-02-v16",
+            "zt-02-expression-01",
+            "zt-02-expression-02",
+            "zt-02-expression-03",
+            "zt-02-expression-04"
+          ],
+          "coreVocabularyIds": [
+            "zt-02-v01",
+            "zt-02-v02",
+            "zt-02-v05",
+            "zt-02-v08",
+            "zt-02-v10",
+            "zt-02-v11",
+            "zt-02-v16"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-02-slide-003",
+            "zt-02-slide-004",
+            "zt-02-slide-006",
+            "zt-02-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-02-step-2",
+          "lessonId": "zt-02",
+          "number": 2,
+          "position": 7,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-02-q-places",
+            "zt-02-q-correction",
+            "zt-02-q-duration"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-02-reading-5",
+            "zt-02-reading-8",
+            "zt-02-reading-11"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-02-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-02-slide-005",
+            "zt-02-slide-008",
+            "zt-02-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-02-step-3",
+          "lessonId": "zt-02",
+          "number": 3,
+          "position": 8,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-02-q-distance-word",
+            "zt-02-q-perspective"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-02-pattern-motion",
+            "zt-02-pattern-distance",
+            "zt-02-pattern-list"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-02-slide-007",
+            "zt-02-slide-008",
+            "zt-02-slide-010",
+            "zt-02-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-02-step-4",
+          "lessonId": "zt-02",
+          "number": 4,
+          "position": 9,
+          "stage": "communicate",
+          "title": "Correct a destination misunderstanding",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-02-q-clarify"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-02-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-02-slide-005",
+            "zt-02-slide-007",
+            "zt-02-slide-008",
+            "zt-02-slide-010",
+            "zt-02-slide-011",
+            "zt-02-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-02-step-5",
+          "lessonId": "zt-02",
+          "number": 5,
+          "position": 10,
+          "stage": "apply",
+          "title": "A destination enquiry reply",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-02-writing"
+          ],
+          "sourceRefs": [
+            "zt-02-slide-005",
+            "zt-02-slide-007",
+            "zt-02-slide-008",
+            "zt-02-slide-010",
+            "zt-02-slide-011",
+            "zt-02-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-03",
+      "number": 3,
+      "title": "到酒店了",
+      "subtitle": "Arrival, clarity & consent",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-03-step-1",
+          "lessonId": "zt-03",
+          "number": 1,
+          "position": 11,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-03-q-collocation",
+            "zt-03-q-card"
+          ],
+          "vocabularyIds": [
+            "zt-03-v01",
+            "zt-03-v02",
+            "zt-03-v03",
+            "zt-03-v04",
+            "zt-03-v05",
+            "zt-03-v06",
+            "zt-03-v07",
+            "zt-03-v08",
+            "zt-03-v09",
+            "zt-03-v10",
+            "zt-03-v11",
+            "zt-03-v12",
+            "zt-03-v13",
+            "zt-03-expression-05",
+            "zt-03-expression-06"
+          ],
+          "coreVocabularyIds": [
+            "zt-03-v02",
+            "zt-03-v03",
+            "zt-03-v06",
+            "zt-03-v07",
+            "zt-03-v09",
+            "zt-03-v13"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-03-slide-003",
+            "zt-03-slide-006",
+            "zt-03-slide-008",
+            "zt-03-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-03-step-2",
+          "lessonId": "zt-03",
+          "number": 2,
+          "position": 12,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-03-q-purpose",
+            "zt-03-q-total",
+            "zt-03-q-inference",
+            "zt-03-q-permission"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-03-reading-5",
+            "zt-03-reading-9",
+            "zt-03-reading-11"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-03-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-03-slide-005",
+            "zt-03-slide-009",
+            "zt-03-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-03-step-3",
+          "lessonId": "zt-03",
+          "number": 3,
+          "position": 13,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-03-q-arrival",
+            "zt-03-q-arrival-contrast"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-03-arrival",
+            "zt-03-total",
+            "zt-03-permission"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-03-slide-005",
+            "zt-03-slide-007",
+            "zt-03-slide-009",
+            "zt-03-slide-011",
+            "zt-03-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-03-step-4",
+          "lessonId": "zt-03",
+          "number": 4,
+          "position": 14,
+          "stage": "communicate",
+          "title": "Check-in and a change of plan",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-03-q-repair",
+            "zt-03-q-decline"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-03-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-03-slide-005",
+            "zt-03-slide-007",
+            "zt-03-slide-008",
+            "zt-03-slide-009",
+            "zt-03-slide-011",
+            "zt-03-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-03-step-5",
+          "lessonId": "zt-03",
+          "number": 5,
+          "position": 15,
+          "stage": "apply",
+          "title": "Two audiences, one clear arrival",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-03-writing"
+          ],
+          "sourceRefs": [
+            "zt-03-slide-005",
+            "zt-03-slide-007",
+            "zt-03-slide-008",
+            "zt-03-slide-009",
+            "zt-03-slide-011",
+            "zt-03-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-04",
+      "number": 4,
+      "title": "请问，大皇宫怎么走？",
+      "subtitle": "Directions, methods & clear sequencing",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-04-step-1",
+          "lessonId": "zt-04",
+          "number": 1,
+          "position": 16,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-04-q-ticket",
+            "zt-04-q-charge"
+          ],
+          "vocabularyIds": [
+            "zt-04-v01",
+            "zt-04-v02",
+            "zt-04-v03",
+            "zt-04-v04",
+            "zt-04-v05",
+            "zt-04-v06",
+            "zt-04-v07",
+            "zt-04-v08",
+            "zt-04-v09",
+            "zt-04-v10",
+            "zt-04-v11",
+            "zt-04-v12",
+            "zt-04-expression-07",
+            "zt-04-expression-08",
+            "zt-04-expression-09"
+          ],
+          "coreVocabularyIds": [
+            "zt-04-v04",
+            "zt-04-v05",
+            "zt-04-v06",
+            "zt-04-v10",
+            "zt-04-v12",
+            "zt-04-expression-07",
+            "zt-04-expression-08"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-04-slide-002",
+            "zt-04-slide-004",
+            "zt-04-slide-006"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-04-step-2",
+          "lessonId": "zt-04",
+          "number": 2,
+          "position": 17,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-04-q-route",
+            "zt-04-q-method",
+            "zt-04-q-source-limits"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-04-reading-3",
+            "zt-04-reading-5",
+            "zt-04-reading-7"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-04-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-04-slide-003",
+            "zt-04-slide-005",
+            "zt-04-slide-007"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-04-step-3",
+          "lessonId": "zt-04",
+          "number": 3,
+          "position": 18,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-04-q-sequence",
+            "zt-04-q-question"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-04-pattern-method",
+            "zt-04-pattern-sequence"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-04-slide-004",
+            "zt-04-slide-005",
+            "zt-04-slide-008"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-04-step-4",
+          "lessonId": "zt-04",
+          "number": 4,
+          "position": 19,
+          "stage": "communicate",
+          "title": "Give directions, then repair",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-04-q-repair"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-04-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-04-slide-003",
+            "zt-04-slide-004",
+            "zt-04-slide-005",
+            "zt-04-slide-007",
+            "zt-04-slide-008",
+            "zt-04-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-04-step-5",
+          "lessonId": "zt-04",
+          "number": 5,
+          "position": 20,
+          "stage": "apply",
+          "title": "A route card and clarification note",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-04-writing"
+          ],
+          "sourceRefs": [
+            "zt-04-slide-003",
+            "zt-04-slide-004",
+            "zt-04-slide-005",
+            "zt-04-slide-007",
+            "zt-04-slide-008",
+            "zt-04-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-05",
+      "number": 5,
+      "title": "我们去银行换钱",
+      "subtitle": "Currency requests & accurate handover",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-05-step-1",
+          "lessonId": "zt-05",
+          "number": 1,
+          "position": 21,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-05-q-currency",
+            "zt-05-q-amount"
+          ],
+          "vocabularyIds": [
+            "zt-05-v01",
+            "zt-05-v02",
+            "zt-05-v03",
+            "zt-05-v04",
+            "zt-05-v05",
+            "zt-05-v06",
+            "zt-05-v07",
+            "zt-05-v08",
+            "zt-05-v09",
+            "zt-05-expression-10",
+            "zt-05-expression-11"
+          ],
+          "coreVocabularyIds": [
+            "zt-05-v02",
+            "zt-05-v03",
+            "zt-05-v05",
+            "zt-05-v07",
+            "zt-05-v09",
+            "zt-05-expression-10",
+            "zt-05-expression-11"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-05-slide-002",
+            "zt-05-slide-004",
+            "zt-05-slide-005",
+            "zt-05-slide-006"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-05-step-2",
+          "lessonId": "zt-05",
+          "number": 2,
+          "position": 22,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-05-q-where",
+            "zt-05-q-direction",
+            "zt-05-q-unknown"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-05-reading-3",
+            "zt-05-reading-5",
+            "zt-05-reading-7"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-05-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-05-slide-003",
+            "zt-05-slide-005",
+            "zt-05-slide-007"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-05-step-3",
+          "lessonId": "zt-05",
+          "number": 3,
+          "position": 23,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-05-q-purpose",
+            "zt-05-q-means"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-05-pattern-purpose",
+            "zt-05-pattern-exchange"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-05-slide-006",
+            "zt-05-slide-007",
+            "zt-05-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-05-step-4",
+          "lessonId": "zt-05",
+          "number": 4,
+          "position": 24,
+          "stage": "communicate",
+          "title": "Clarify an incomplete exchange request",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-05-q-repair"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-05-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-05-slide-003",
+            "zt-05-slide-005",
+            "zt-05-slide-006",
+            "zt-05-slide-007",
+            "zt-05-slide-008",
+            "zt-05-slide-009",
+            "zt-05-slide-010",
+            "zt-05-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-05-step-5",
+          "lessonId": "zt-05",
+          "number": 5,
+          "position": 25,
+          "stage": "apply",
+          "title": "A clear bank enquiry card",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-05-writing"
+          ],
+          "sourceRefs": [
+            "zt-05-slide-003",
+            "zt-05-slide-005",
+            "zt-05-slide-006",
+            "zt-05-slide-007",
+            "zt-05-slide-008",
+            "zt-05-slide-009",
+            "zt-05-slide-010",
+            "zt-05-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-06",
+      "number": 6,
+      "title": "坐嘟嘟车还是出租车？",
+      "subtitle": "Transport choices & negotiated priorities",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-06-step-1",
+          "lessonId": "zt-06",
+          "number": 1,
+          "position": 26,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-06-q-ride"
+          ],
+          "vocabularyIds": [
+            "zt-06-v01",
+            "zt-06-v02",
+            "zt-06-v03",
+            "zt-06-v04",
+            "zt-06-v05",
+            "zt-06-v06",
+            "zt-06-v07",
+            "zt-06-v08",
+            "zt-06-v09",
+            "zt-06-v10",
+            "zt-06-v11",
+            "zt-06-expression-12",
+            "zt-06-expression-13"
+          ],
+          "coreVocabularyIds": [
+            "zt-06-v01",
+            "zt-06-v03",
+            "zt-06-v04",
+            "zt-06-v05",
+            "zt-06-v06",
+            "zt-06-v08"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-06-slide-002",
+            "zt-06-slide-003",
+            "zt-06-slide-004",
+            "zt-06-slide-006"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-06-step-2",
+          "lessonId": "zt-06",
+          "number": 2,
+          "position": 27,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-06-q-destination",
+            "zt-06-q-time",
+            "zt-06-q-decision",
+            "zt-06-q-past"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-06-reading-3",
+            "zt-06-reading-5",
+            "zt-06-reading-7"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-06-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-06-slide-003",
+            "zt-06-slide-005",
+            "zt-06-slide-007"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-06-step-3",
+          "lessonId": "zt-06",
+          "number": 3,
+          "position": 28,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-06-q-alternatives",
+            "zt-06-q-route"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-06-pattern-choice",
+            "zt-06-pattern-journey"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-06-slide-005",
+            "zt-06-slide-007",
+            "zt-06-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-06-step-4",
+          "lessonId": "zt-06",
+          "number": 4,
+          "position": 29,
+          "stage": "communicate",
+          "title": "A choice with competing priorities",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-06-q-priorities"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-06-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-06-slide-003",
+            "zt-06-slide-004",
+            "zt-06-slide-005",
+            "zt-06-slide-007",
+            "zt-06-slide-009",
+            "zt-06-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-06-step-5",
+          "lessonId": "zt-06",
+          "number": 5,
+          "position": 30,
+          "stage": "apply",
+          "title": "A transport comparison reply",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-06-writing"
+          ],
+          "sourceRefs": [
+            "zt-06-slide-003",
+            "zt-06-slide-004",
+            "zt-06-slide-005",
+            "zt-06-slide-007",
+            "zt-06-slide-009",
+            "zt-06-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-07",
+      "number": 7,
+      "title": "清迈有很多寺庙。",
+      "subtitle": "Night markets, temples & personal preferences",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-07-step-1",
+          "lessonId": "zt-07",
+          "number": 1,
+          "position": 31,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-07-q-sensory",
+            "zt-07-q-stance"
+          ],
+          "vocabularyIds": [
+            "zt-07-v01",
+            "zt-07-v02",
+            "zt-07-v03",
+            "zt-07-v04",
+            "zt-07-v05",
+            "zt-07-v06",
+            "zt-07-v07",
+            "zt-07-v08",
+            "zt-07-v09",
+            "zt-07-v10",
+            "zt-07-v11",
+            "zt-07-v12"
+          ],
+          "coreVocabularyIds": [
+            "zt-07-v01",
+            "zt-07-v03",
+            "zt-07-v07",
+            "zt-07-v08",
+            "zt-07-v11",
+            "zt-07-v12"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-07-slide-002",
+            "zt-07-slide-003",
+            "zt-07-slide-005",
+            "zt-07-slide-007"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-07-step-2",
+          "lessonId": "zt-07",
+          "number": 2,
+          "position": 32,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-07-q-day",
+            "zt-07-q-preference",
+            "zt-07-q-proposal"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-07-reading-4",
+            "zt-07-reading-6",
+            "zt-07-reading-8"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-07-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-07-slide-004",
+            "zt-07-slide-006",
+            "zt-07-slide-008"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-07-step-3",
+          "lessonId": "zt-07",
+          "number": 3,
+          "position": 33,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-07-q-existence",
+            "zt-07-q-location"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-07-pattern-existence",
+            "zt-07-pattern-view"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-07-slide-003",
+            "zt-07-slide-007",
+            "zt-07-slide-013"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-07-step-4",
+          "lessonId": "zt-07",
+          "number": 4,
+          "position": 34,
+          "stage": "communicate",
+          "title": "Recommend without assuming",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-07-q-quiet"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-07-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-07-slide-003",
+            "zt-07-slide-004",
+            "zt-07-slide-006",
+            "zt-07-slide-007",
+            "zt-07-slide-008",
+            "zt-07-slide-013",
+            "zt-07-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-07-step-5",
+          "lessonId": "zt-07",
+          "number": 5,
+          "position": 35,
+          "stage": "apply",
+          "title": "A small destination guide",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-07-writing"
+          ],
+          "sourceRefs": [
+            "zt-07-slide-003",
+            "zt-07-slide-004",
+            "zt-07-slide-006",
+            "zt-07-slide-007",
+            "zt-07-slide-008",
+            "zt-07-slide-013",
+            "zt-07-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-08",
+      "number": 8,
+      "title": "爬山累不累？",
+      "subtitle": "Hiking, comfort & evidence",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-08-step-1",
+          "lessonId": "zt-08",
+          "number": 1,
+          "position": 36,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-08-q-clothing",
+            "zt-08-q-slight"
+          ],
+          "vocabularyIds": [
+            "zt-08-v01",
+            "zt-08-v02",
+            "zt-08-v03",
+            "zt-08-v04",
+            "zt-08-v05",
+            "zt-08-v06",
+            "zt-08-v07",
+            "zt-08-v08",
+            "zt-08-v09",
+            "zt-08-v10"
+          ],
+          "coreVocabularyIds": [
+            "zt-08-v02",
+            "zt-08-v03",
+            "zt-08-v04",
+            "zt-08-v08",
+            "zt-08-v09",
+            "zt-08-v10"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-08-slide-002",
+            "zt-08-slide-003",
+            "zt-08-slide-005",
+            "zt-08-slide-007"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-08-step-2",
+          "lessonId": "zt-08",
+          "number": 2,
+          "position": 37,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-08-q-experience",
+            "zt-08-q-mountain",
+            "zt-08-q-evidence"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-08-reading-4",
+            "zt-08-reading-6",
+            "zt-08-reading-8"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-08-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-08-slide-004",
+            "zt-08-slide-006",
+            "zt-08-slide-008"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-08-step-3",
+          "lessonId": "zt-08",
+          "number": 3,
+          "position": 38,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-08-q-question",
+            "zt-08-q-long"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-08-pattern-anota",
+            "zt-08-pattern-degree"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-08-slide-008",
+            "zt-08-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-08-step-4",
+          "lessonId": "zt-08",
+          "number": 4,
+          "position": 39,
+          "stage": "communicate",
+          "title": "A hiking recommendation with a pause",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-08-q-plan"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-08-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-08-slide-002",
+            "zt-08-slide-004",
+            "zt-08-slide-006",
+            "zt-08-slide-007",
+            "zt-08-slide-008",
+            "zt-08-slide-009",
+            "zt-08-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-08-step-5",
+          "lessonId": "zt-08",
+          "number": 5,
+          "position": 40,
+          "stage": "apply",
+          "title": "A pre-hike conversation brief",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-08-writing"
+          ],
+          "sourceRefs": [
+            "zt-08-slide-002",
+            "zt-08-slide-004",
+            "zt-08-slide-006",
+            "zt-08-slide-007",
+            "zt-08-slide-008",
+            "zt-08-slide-009",
+            "zt-08-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-09",
+      "number": 9,
+      "title": "尝一尝泰式炒面吧！",
+      "subtitle": "Dining, gentle suggestions & checking a delay",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-09-step-1",
+          "lessonId": "zt-09",
+          "number": 1,
+          "position": 41,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-09-q-documents",
+            "zt-09-q-portion"
+          ],
+          "vocabularyIds": [
+            "zt-09-v01",
+            "zt-09-v02",
+            "zt-09-v03",
+            "zt-09-v04",
+            "zt-09-v05",
+            "zt-09-v06",
+            "zt-09-v07",
+            "zt-09-v08",
+            "zt-09-v09",
+            "zt-09-v10",
+            "zt-09-v11",
+            "zt-09-v12",
+            "zt-09-v13",
+            "zt-09-v14",
+            "zt-09-expression-14",
+            "zt-09-expression-15"
+          ],
+          "coreVocabularyIds": [
+            "zt-09-v01",
+            "zt-09-v05",
+            "zt-09-v06",
+            "zt-09-v10",
+            "zt-09-v11",
+            "zt-09-v14",
+            "zt-09-expression-15"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-09-slide-002",
+            "zt-09-slide-003",
+            "zt-09-slide-004",
+            "zt-09-slide-005",
+            "zt-09-slide-007"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-09-step-2",
+          "lessonId": "zt-09",
+          "number": 2,
+          "position": 42,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-09-q-order",
+            "zt-09-q-delay",
+            "zt-09-q-bill"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-09-reading-4",
+            "zt-09-reading-6",
+            "zt-09-reading-8"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-09-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-09-slide-004",
+            "zt-09-slide-006",
+            "zt-09-slide-008"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-09-step-3",
+          "lessonId": "zt-09",
+          "number": 3,
+          "position": 43,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-09-q-gentle",
+            "zt-09-q-check"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-09-pattern-reduplication",
+            "zt-09-pattern-portions"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-09-slide-004",
+            "zt-09-slide-006",
+            "zt-09-slide-007",
+            "zt-09-slide-008",
+            "zt-09-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-09-step-4",
+          "lessonId": "zt-09",
+          "number": 4,
+          "position": 44,
+          "stage": "communicate",
+          "title": "The dish is taking longer",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-09-q-request"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-09-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-09-slide-002",
+            "zt-09-slide-003",
+            "zt-09-slide-004",
+            "zt-09-slide-006",
+            "zt-09-slide-007",
+            "zt-09-slide-008",
+            "zt-09-slide-009",
+            "zt-09-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-09-step-5",
+          "lessonId": "zt-09",
+          "number": 5,
+          "position": 45,
+          "stage": "apply",
+          "title": "An order and a delay reply",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-09-writing"
+          ],
+          "sourceRefs": [
+            "zt-09-slide-002",
+            "zt-09-slide-003",
+            "zt-09-slide-004",
+            "zt-09-slide-006",
+            "zt-09-slide-007",
+            "zt-09-slide-008",
+            "zt-09-slide-009",
+            "zt-09-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-10",
+      "number": 10,
+      "title": "我们几点去机场？",
+      "subtitle": "Dates, clock times & departure coordination",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-10-step-1",
+          "lessonId": "zt-10",
+          "number": 1,
+          "position": 46,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-10-q-duration",
+            "zt-10-q-boarding-word"
+          ],
+          "vocabularyIds": [
+            "zt-10-v01",
+            "zt-10-v02",
+            "zt-10-v03",
+            "zt-10-v04",
+            "zt-10-v05",
+            "zt-10-v06",
+            "zt-10-v07",
+            "zt-10-v08",
+            "zt-10-expression-16"
+          ],
+          "coreVocabularyIds": [
+            "zt-10-v01",
+            "zt-10-v02",
+            "zt-10-v03",
+            "zt-10-v04",
+            "zt-10-v06",
+            "zt-10-expression-16"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-10-slide-003",
+            "zt-10-slide-006",
+            "zt-10-slide-008"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-10-step-2",
+          "lessonId": "zt-10",
+          "number": 2,
+          "position": 47,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-10-q-date",
+            "zt-10-q-departure",
+            "zt-10-q-boarding"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-10-reading-5",
+            "zt-10-reading-7",
+            "zt-10-reading-9"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-10-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-10-slide-005",
+            "zt-10-slide-007",
+            "zt-10-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-10-step-3",
+          "lessonId": "zt-10",
+          "number": 3,
+          "position": 48,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-10-q-clock",
+            "zt-10-q-duration-question"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-10-pattern-time",
+            "zt-10-pattern-estimate"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-10-slide-005",
+            "zt-10-slide-007",
+            "zt-10-slide-008",
+            "zt-10-slide-009",
+            "zt-10-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-10-step-4",
+          "lessonId": "zt-10",
+          "number": 4,
+          "position": 49,
+          "stage": "communicate",
+          "title": "Resolve a timing misunderstanding",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-10-q-missing"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-10-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-10-slide-003",
+            "zt-10-slide-005",
+            "zt-10-slide-006",
+            "zt-10-slide-007",
+            "zt-10-slide-008",
+            "zt-10-slide-009",
+            "zt-10-slide-010",
+            "zt-10-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-10-step-5",
+          "lessonId": "zt-10",
+          "number": 5,
+          "position": 50,
+          "stage": "apply",
+          "title": "A transfer confirmation message",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-10-writing"
+          ],
+          "sourceRefs": [
+            "zt-10-slide-003",
+            "zt-10-slide-005",
+            "zt-10-slide-006",
+            "zt-10-slide-007",
+            "zt-10-slide-008",
+            "zt-10-slide-009",
+            "zt-10-slide-010",
+            "zt-10-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-11",
+      "number": 11,
+      "title": "这里真漂亮 !",
+      "subtitle": "Destination language without overselling",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-11-step-1",
+          "lessonId": "zt-11",
+          "number": 1,
+          "position": 51,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-11-q-browse",
+            "zt-11-q-comfort"
+          ],
+          "vocabularyIds": [
+            "zt-11-v01",
+            "zt-11-v02",
+            "zt-11-v03",
+            "zt-11-v04",
+            "zt-11-v05",
+            "zt-11-v06",
+            "zt-11-v07",
+            "zt-11-v08",
+            "zt-11-v09",
+            "zt-11-v10",
+            "zt-11-v11",
+            "zt-11-expression-17",
+            "zt-11-expression-18",
+            "zt-11-expression-19"
+          ],
+          "coreVocabularyIds": [
+            "zt-11-v01",
+            "zt-11-v06",
+            "zt-11-v08",
+            "zt-11-v09",
+            "zt-11-v10",
+            "zt-11-v11"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-11-slide-003",
+            "zt-11-slide-004",
+            "zt-11-slide-005",
+            "zt-11-slide-006",
+            "zt-11-slide-007",
+            "zt-11-slide-008",
+            "zt-11-slide-009",
+            "zt-11-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-11-step-2",
+          "lessonId": "zt-11",
+          "number": 2,
+          "position": 52,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-11-q-beach",
+            "zt-11-q-activities",
+            "zt-11-q-nearby"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-11-reading-5",
+            "zt-11-reading-7",
+            "zt-11-reading-10"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-11-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-11-slide-005",
+            "zt-11-slide-007",
+            "zt-11-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-11-step-3",
+          "lessonId": "zt-11",
+          "number": 3,
+          "position": 53,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-11-q-degree",
+            "zt-11-q-invitation"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-11-pattern-reaction",
+            "zt-11-pattern-invitation"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-11-slide-005",
+            "zt-11-slide-010",
+            "zt-11-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-11-step-4",
+          "lessonId": "zt-11",
+          "number": 4,
+          "position": 54,
+          "stage": "communicate",
+          "title": "An invitation that leaves a choice",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-11-q-oversell"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-11-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-11-slide-003",
+            "zt-11-slide-004",
+            "zt-11-slide-005",
+            "zt-11-slide-006",
+            "zt-11-slide-007",
+            "zt-11-slide-008",
+            "zt-11-slide-009",
+            "zt-11-slide-010",
+            "zt-11-slide-011",
+            "zt-11-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-11-step-5",
+          "lessonId": "zt-11",
+          "number": 5,
+          "position": 55,
+          "stage": "apply",
+          "title": "A destination guide with choice",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-11-writing"
+          ],
+          "sourceRefs": [
+            "zt-11-slide-003",
+            "zt-11-slide-004",
+            "zt-11-slide-005",
+            "zt-11-slide-006",
+            "zt-11-slide-007",
+            "zt-11-slide-008",
+            "zt-11-slide-009",
+            "zt-11-slide-010",
+            "zt-11-slide-011",
+            "zt-11-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-12",
+      "number": 12,
+      "title": "这件衣服多少钱？",
+      "subtitle": "Shopping, quantities & a useful price enquiry",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-12-step-1",
+          "lessonId": "zt-12",
+          "number": 1,
+          "position": 56,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-12-q-measure",
+            "zt-12-q-fit-word"
+          ],
+          "vocabularyIds": [
+            "zt-12-v01",
+            "zt-12-v02",
+            "zt-12-v03",
+            "zt-12-v04",
+            "zt-12-v05",
+            "zt-12-v06",
+            "zt-12-v07",
+            "zt-12-v08",
+            "zt-12-v09",
+            "zt-12-v10",
+            "zt-12-v11",
+            "zt-12-v12",
+            "zt-12-expression-20"
+          ],
+          "coreVocabularyIds": [
+            "zt-12-v05",
+            "zt-12-v07",
+            "zt-12-v08",
+            "zt-12-v09",
+            "zt-12-v10",
+            "zt-12-v12"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-12-slide-002",
+            "zt-12-slide-003",
+            "zt-12-slide-006",
+            "zt-12-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-12-step-2",
+          "lessonId": "zt-12",
+          "number": 2,
+          "position": 57,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-12-q-floor",
+            "zt-12-q-clothing-price",
+            "zt-12-q-fruit-total"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-12-reading-4",
+            "zt-12-reading-7",
+            "zt-12-reading-10"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-12-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-12-slide-004",
+            "zt-12-slide-007",
+            "zt-12-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-12-step-3",
+          "lessonId": "zt-12",
+          "number": 3,
+          "position": 58,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-12-q-water",
+            "zt-12-q-price-word"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-12-pattern-quantity",
+            "zt-12-pattern-fit"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-12-slide-006",
+            "zt-12-slide-007",
+            "zt-12-slide-012",
+            "zt-12-slide-013"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-12-step-4",
+          "lessonId": "zt-12",
+          "number": 4,
+          "position": 59,
+          "stage": "communicate",
+          "title": "Appearance, fit and a changed quantity",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-12-q-shopper"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-12-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-12-slide-002",
+            "zt-12-slide-003",
+            "zt-12-slide-004",
+            "zt-12-slide-005",
+            "zt-12-slide-006",
+            "zt-12-slide-007",
+            "zt-12-slide-008",
+            "zt-12-slide-009",
+            "zt-12-slide-010",
+            "zt-12-slide-011",
+            "zt-12-slide-012",
+            "zt-12-slide-013",
+            "zt-12-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-12-step-5",
+          "lessonId": "zt-12",
+          "number": 5,
+          "position": 60,
+          "stage": "apply",
+          "title": "A shopping help message",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-12-writing"
+          ],
+          "sourceRefs": [
+            "zt-12-slide-002",
+            "zt-12-slide-003",
+            "zt-12-slide-004",
+            "zt-12-slide-005",
+            "zt-12-slide-006",
+            "zt-12-slide-007",
+            "zt-12-slide-008",
+            "zt-12-slide-009",
+            "zt-12-slide-010",
+            "zt-12-slide-011",
+            "zt-12-slide-012",
+            "zt-12-slide-013",
+            "zt-12-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-13",
+      "number": 13,
+      "title": "街上变得热闹了",
+      "subtitle": "An evening out & a change of state",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-13-step-1",
+          "lessonId": "zt-13",
+          "number": 1,
+          "position": 61,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-13-q-phone",
+            "zt-13-q-already"
+          ],
+          "vocabularyIds": [
+            "zt-13-v01",
+            "zt-13-v02",
+            "zt-13-v03",
+            "zt-13-v04",
+            "zt-13-v05",
+            "zt-13-v06",
+            "zt-13-v07",
+            "zt-13-v08",
+            "zt-13-v09"
+          ],
+          "coreVocabularyIds": [
+            "zt-13-v01",
+            "zt-13-v05",
+            "zt-13-v06",
+            "zt-13-v07",
+            "zt-13-v08",
+            "zt-13-v09"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-13-slide-002",
+            "zt-13-slide-005",
+            "zt-13-slide-008"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-13-step-2",
+          "lessonId": "zt-13",
+          "number": 2,
+          "position": 62,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-13-q-invitation",
+            "zt-13-q-change",
+            "zt-13-q-return"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-13-reading-3",
+            "zt-13-reading-6",
+            "zt-13-reading-9"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-13-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-13-slide-003",
+            "zt-13-slide-006",
+            "zt-13-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-13-step-3",
+          "lessonId": "zt-13",
+          "number": 3,
+          "position": 63,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-13-q-state-change",
+            "zt-13-q-approaching"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-13-pattern-change",
+            "zt-13-pattern-timing"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-13-slide-002",
+            "zt-13-slide-008",
+            "zt-13-slide-009",
+            "zt-13-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-13-step-4",
+          "lessonId": "zt-13",
+          "number": 4,
+          "position": 64,
+          "stage": "communicate",
+          "title": "An evening plan changes",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-13-q-decline"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-13-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-13-slide-002",
+            "zt-13-slide-003",
+            "zt-13-slide-004",
+            "zt-13-slide-005",
+            "zt-13-slide-006",
+            "zt-13-slide-007",
+            "zt-13-slide-008",
+            "zt-13-slide-009",
+            "zt-13-slide-010",
+            "zt-13-slide-011",
+            "zt-13-slide-012",
+            "zt-13-slide-013"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-13-step-5",
+          "lessonId": "zt-13",
+          "number": 5,
+          "position": 65,
+          "stage": "apply",
+          "title": "An evening update and return plan",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-13-writing"
+          ],
+          "sourceRefs": [
+            "zt-13-slide-002",
+            "zt-13-slide-003",
+            "zt-13-slide-004",
+            "zt-13-slide-005",
+            "zt-13-slide-006",
+            "zt-13-slide-007",
+            "zt-13-slide-008",
+            "zt-13-slide-009",
+            "zt-13-slide-010",
+            "zt-13-slide-011",
+            "zt-13-slide-012",
+            "zt-13-slide-013"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-14",
+      "number": 14,
+      "title": "一起去看日出，怎么样？",
+      "subtitle": "Make a plan worth agreeing to",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-14-step-1",
+          "lessonId": "zt-14",
+          "number": 1,
+          "position": 66,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-14-q-intention",
+            "zt-14-q-availability-word"
+          ],
+          "vocabularyIds": [
+            "zt-14-v01",
+            "zt-14-v02",
+            "zt-14-v03",
+            "zt-14-v04",
+            "zt-14-v05",
+            "zt-14-v06",
+            "zt-14-v07",
+            "zt-14-v08",
+            "zt-14-v09",
+            "zt-14-v10",
+            "zt-14-v11",
+            "zt-14-v12",
+            "zt-14-v13"
+          ],
+          "coreVocabularyIds": [
+            "zt-14-v01",
+            "zt-14-v02",
+            "zt-14-v05",
+            "zt-14-v06",
+            "zt-14-v07",
+            "zt-14-v12"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-14-slide-003",
+            "zt-14-slide-004",
+            "zt-14-slide-005",
+            "zt-14-slide-008"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-14-step-2",
+          "lessonId": "zt-14",
+          "number": 2,
+          "position": 67,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-14-q-place",
+            "zt-14-q-availability",
+            "zt-14-q-sunrise"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-14-reading-6",
+            "zt-14-reading-9"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-14-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-14-slide-006",
+            "zt-14-slide-009"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-14-step-3",
+          "lessonId": "zt-14",
+          "number": 3,
+          "position": 68,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-14-q-proposal",
+            "zt-14-q-consent"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-14-pattern-plan",
+            "zt-14-pattern-suggestion"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-14-slide-006",
+            "zt-14-slide-009",
+            "zt-14-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-14-step-4",
+          "lessonId": "zt-14",
+          "number": 4,
+          "position": 69,
+          "stage": "communicate",
+          "title": "Agree on a plan without pressure",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-14-q-constraint"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-14-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-14-slide-003",
+            "zt-14-slide-004",
+            "zt-14-slide-005",
+            "zt-14-slide-006",
+            "zt-14-slide-007",
+            "zt-14-slide-008",
+            "zt-14-slide-009",
+            "zt-14-slide-010",
+            "zt-14-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-14-step-5",
+          "lessonId": "zt-14",
+          "number": 5,
+          "position": 70,
+          "stage": "apply",
+          "title": "An invitation with two possible plans",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-14-writing"
+          ],
+          "sourceRefs": [
+            "zt-14-slide-003",
+            "zt-14-slide-004",
+            "zt-14-slide-005",
+            "zt-14-slide-006",
+            "zt-14-slide-007",
+            "zt-14-slide-008",
+            "zt-14-slide-009",
+            "zt-14-slide-010",
+            "zt-14-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-15",
+      "number": 15,
+      "title": "这家比那家近一点儿。",
+      "subtitle": "Compare, justify & recommend",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-15-step-1",
+          "lessonId": "zt-15",
+          "number": 1,
+          "position": 71,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-15-q-establishment",
+            "zt-15-q-recommend"
+          ],
+          "vocabularyIds": [
+            "zt-15-v01",
+            "zt-15-v02",
+            "zt-15-v03",
+            "zt-15-v04",
+            "zt-15-v05",
+            "zt-15-v06",
+            "zt-15-v07",
+            "zt-15-v08",
+            "zt-15-v09",
+            "zt-15-v10",
+            "zt-15-v11",
+            "zt-15-expression-21",
+            "zt-15-expression-22"
+          ],
+          "coreVocabularyIds": [
+            "zt-15-v03",
+            "zt-15-v04",
+            "zt-15-v05",
+            "zt-15-v10",
+            "zt-15-v11",
+            "zt-15-expression-22"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-15-slide-003",
+            "zt-15-slide-009",
+            "zt-15-slide-015"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-15-step-2",
+          "lessonId": "zt-15",
+          "number": 2,
+          "position": 72,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-15-q-choice",
+            "zt-15-q-food",
+            "zt-15-q-revision"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-15-reading-7",
+            "zt-15-reading-15"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-15-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-15-slide-007",
+            "zt-15-slide-015"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-15-step-3",
+          "lessonId": "zt-15",
+          "number": 3,
+          "position": 73,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-15-q-comparison-form",
+            "zt-15-q-reverse"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-15-pattern-comparison",
+            "zt-15-pattern-less"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-15-slide-007",
+            "zt-15-slide-015",
+            "zt-15-slide-017"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-15-step-4",
+          "lessonId": "zt-15",
+          "number": 4,
+          "position": 74,
+          "stage": "communicate",
+          "title": "A group recommendation changes",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-15-q-individual"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-15-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-15-slide-004",
+            "zt-15-slide-005",
+            "zt-15-slide-006",
+            "zt-15-slide-007",
+            "zt-15-slide-008",
+            "zt-15-slide-009",
+            "zt-15-slide-011",
+            "zt-15-slide-015",
+            "zt-15-slide-016",
+            "zt-15-slide-017",
+            "zt-15-slide-018",
+            "zt-15-slide-019"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-15-step-5",
+          "lessonId": "zt-15",
+          "number": 5,
+          "position": 75,
+          "stage": "apply",
+          "title": "A comparative dining recommendation",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 15,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-15-writing"
+          ],
+          "sourceRefs": [
+            "zt-15-slide-004",
+            "zt-15-slide-005",
+            "zt-15-slide-006",
+            "zt-15-slide-007",
+            "zt-15-slide-008",
+            "zt-15-slide-009",
+            "zt-15-slide-011",
+            "zt-15-slide-015",
+            "zt-15-slide-016",
+            "zt-15-slide-017",
+            "zt-15-slide-018",
+            "zt-15-slide-019"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-16",
+      "number": 16,
+      "title": "泰国的水灯节浪漫极了!",
+      "subtitle": "Festival interpretation & attributed enthusiasm",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-16-step-1",
+          "lessonId": "zt-16",
+          "number": 1,
+          "position": 76,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-16-q-celebrate",
+            "zt-16-q-floating"
+          ],
+          "vocabularyIds": [
+            "zt-16-v01",
+            "zt-16-v02",
+            "zt-16-v03",
+            "zt-16-v04",
+            "zt-16-v05",
+            "zt-16-v06",
+            "zt-16-v07",
+            "zt-16-v08",
+            "zt-16-v09",
+            "zt-16-v10",
+            "zt-16-v11",
+            "zt-16-v12",
+            "zt-16-v13",
+            "zt-16-v14"
+          ],
+          "coreVocabularyIds": [
+            "zt-16-v01",
+            "zt-16-v02",
+            "zt-16-v05",
+            "zt-16-v06",
+            "zt-16-v08",
+            "zt-16-v09",
+            "zt-16-v10"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-16-slide-003",
+            "zt-16-slide-004",
+            "zt-16-slide-005",
+            "zt-16-slide-006",
+            "zt-16-slide-007",
+            "zt-16-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-16-step-2",
+          "lessonId": "zt-16",
+          "number": 2,
+          "position": 77,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-16-q-objects",
+            "zt-16-q-materials",
+            "zt-16-q-hearsay"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-16-reading-8",
+            "zt-16-reading-11"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-16-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-16-slide-008",
+            "zt-16-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-16-step-3",
+          "lessonId": "zt-16",
+          "number": 3,
+          "position": 78,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-16-q-degree-order",
+            "zt-16-q-state"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-16-pattern-degree",
+            "zt-16-pattern-attribution",
+            "zt-16-pattern-materials"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-16-slide-005",
+            "zt-16-slide-008",
+            "zt-16-slide-010",
+            "zt-16-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-16-step-4",
+          "lessonId": "zt-16",
+          "number": 4,
+          "position": 79,
+          "stage": "communicate",
+          "title": "A festival question with a choice",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-16-q-participation"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-16-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-16-slide-003",
+            "zt-16-slide-004",
+            "zt-16-slide-005",
+            "zt-16-slide-006",
+            "zt-16-slide-008",
+            "zt-16-slide-009",
+            "zt-16-slide-010",
+            "zt-16-slide-011",
+            "zt-16-slide-012",
+            "zt-16-slide-014",
+            "zt-16-slide-015"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-16-step-5",
+          "lessonId": "zt-16",
+          "number": 5,
+          "position": 80,
+          "stage": "apply",
+          "title": "A festival briefing for a visitor",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 18,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-16-writing"
+          ],
+          "sourceRefs": [
+            "zt-16-slide-003",
+            "zt-16-slide-004",
+            "zt-16-slide-005",
+            "zt-16-slide-006",
+            "zt-16-slide-008",
+            "zt-16-slide-009",
+            "zt-16-slide-010",
+            "zt-16-slide-011",
+            "zt-16-slide-012",
+            "zt-16-slide-014",
+            "zt-16-slide-015"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-17",
+      "number": 17,
+      "title": "泰国的见面礼和中国一样吗？",
+      "subtitle": "Greetings, experience & respectful comparison",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-17-step-1",
+          "lessonId": "zt-17",
+          "number": 1,
+          "position": 81,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-17-q-sense",
+            "zt-17-q-teach"
+          ],
+          "vocabularyIds": [
+            "zt-17-v01",
+            "zt-17-v02",
+            "zt-17-v03",
+            "zt-17-v04",
+            "zt-17-v05",
+            "zt-17-v06",
+            "zt-17-v07",
+            "zt-17-v08",
+            "zt-17-v09",
+            "zt-17-v10",
+            "zt-17-v11",
+            "zt-17-expression-23"
+          ],
+          "coreVocabularyIds": [
+            "zt-17-v01",
+            "zt-17-v03",
+            "zt-17-v05",
+            "zt-17-v06",
+            "zt-17-v07",
+            "zt-17-v11"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-17-slide-003",
+            "zt-17-slide-004",
+            "zt-17-slide-005",
+            "zt-17-slide-006",
+            "zt-17-slide-007",
+            "zt-17-slide-008",
+            "zt-17-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-17-step-2",
+          "lessonId": "zt-17",
+          "number": 2,
+          "position": 82,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-17-q-experience",
+            "zt-17-q-greeting",
+            "zt-17-q-context"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-17-reading-9",
+            "zt-17-reading-12"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-17-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-17-slide-009",
+            "zt-17-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-17-step-3",
+          "lessonId": "zt-17",
+          "number": 3,
+          "position": 83,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-17-q-experience-form",
+            "zt-17-q-similarity"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-17-pattern-experience",
+            "zt-17-pattern-comparison",
+            "zt-17-pattern-request"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-17-slide-004",
+            "zt-17-slide-009",
+            "zt-17-slide-012",
+            "zt-17-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-17-step-4",
+          "lessonId": "zt-17",
+          "number": 4,
+          "position": 84,
+          "stage": "communicate",
+          "title": "A respectful first greeting",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-17-q-guest"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-17-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-17-slide-004",
+            "zt-17-slide-006",
+            "zt-17-slide-007",
+            "zt-17-slide-009",
+            "zt-17-slide-010",
+            "zt-17-slide-011",
+            "zt-17-slide-012",
+            "zt-17-slide-013",
+            "zt-17-slide-014",
+            "zt-17-slide-015"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-17-step-5",
+          "lessonId": "zt-17",
+          "number": 5,
+          "position": 85,
+          "stage": "apply",
+          "title": "A greeting briefing for a new colleague",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 18,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-17-writing"
+          ],
+          "sourceRefs": [
+            "zt-17-slide-004",
+            "zt-17-slide-006",
+            "zt-17-slide-007",
+            "zt-17-slide-009",
+            "zt-17-slide-010",
+            "zt-17-slide-011",
+            "zt-17-slide-012",
+            "zt-17-slide-013",
+            "zt-17-slide-014",
+            "zt-17-slide-015"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-18",
+      "number": 18,
+      "title": "泼水的人越来越多了！",
+      "subtitle": "Songkran, changing scenes & participation",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-18-step-1",
+          "lessonId": "zt-18",
+          "number": 1,
+          "position": 86,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-18-q-wet",
+            "zt-18-q-carry"
+          ],
+          "vocabularyIds": [
+            "zt-18-v01",
+            "zt-18-v02",
+            "zt-18-v03",
+            "zt-18-v04",
+            "zt-18-v05",
+            "zt-18-v06",
+            "zt-18-v07",
+            "zt-18-v08",
+            "zt-18-v09",
+            "zt-18-v10",
+            "zt-18-v11",
+            "zt-18-expression-24"
+          ],
+          "coreVocabularyIds": [
+            "zt-18-v02",
+            "zt-18-v03",
+            "zt-18-v06",
+            "zt-18-v07",
+            "zt-18-v08",
+            "zt-18-v10"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-18-slide-003",
+            "zt-18-slide-004",
+            "zt-18-slide-005",
+            "zt-18-slide-008",
+            "zt-18-slide-009",
+            "zt-18-slide-010",
+            "zt-18-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-18-step-2",
+          "lessonId": "zt-18",
+          "number": 2,
+          "position": 87,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-18-q-festival",
+            "zt-18-q-trend",
+            "zt-18-q-plan"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-18-reading-6",
+            "zt-18-reading-11"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-18-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-18-slide-006",
+            "zt-18-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-18-step-3",
+          "lessonId": "zt-18",
+          "number": 3,
+          "position": 88,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-18-q-trend-form",
+            "zt-18-q-evidence"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-18-pattern-trend",
+            "zt-18-pattern-particles"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-18-slide-002",
+            "zt-18-slide-008",
+            "zt-18-slide-013"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-18-step-4",
+          "lessonId": "zt-18",
+          "number": 4,
+          "position": 89,
+          "stage": "communicate",
+          "title": "Participation without pressure",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-18-q-boundary"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-18-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-18-slide-003",
+            "zt-18-slide-004",
+            "zt-18-slide-006",
+            "zt-18-slide-007",
+            "zt-18-slide-008",
+            "zt-18-slide-009",
+            "zt-18-slide-011",
+            "zt-18-slide-012",
+            "zt-18-slide-013",
+            "zt-18-slide-014",
+            "zt-18-slide-015",
+            "zt-18-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-18-step-5",
+          "lessonId": "zt-18",
+          "number": 5,
+          "position": 90,
+          "stage": "apply",
+          "title": "A festival update with participation choices",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 18,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-18-writing"
+          ],
+          "sourceRefs": [
+            "zt-18-slide-003",
+            "zt-18-slide-004",
+            "zt-18-slide-006",
+            "zt-18-slide-007",
+            "zt-18-slide-008",
+            "zt-18-slide-009",
+            "zt-18-slide-011",
+            "zt-18-slide-012",
+            "zt-18-slide-013",
+            "zt-18-slide-014",
+            "zt-18-slide-015",
+            "zt-18-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-19",
+      "number": 19,
+      "title": "把这个花篮送给老师",
+      "subtitle": "Gratitude, gifts & clear action outcomes",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-19-step-1",
+          "lessonId": "zt-19",
+          "number": 1,
+          "position": 91,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-19-q-box",
+            "zt-19-q-gratitude"
+          ],
+          "vocabularyIds": [
+            "zt-19-v01",
+            "zt-19-v02",
+            "zt-19-v03",
+            "zt-19-v04",
+            "zt-19-v05",
+            "zt-19-v06",
+            "zt-19-v07",
+            "zt-19-v08",
+            "zt-19-v09",
+            "zt-19-v10",
+            "zt-19-v11",
+            "zt-19-v12"
+          ],
+          "coreVocabularyIds": [
+            "zt-19-v02",
+            "zt-19-v03",
+            "zt-19-v06",
+            "zt-19-v07",
+            "zt-19-v08",
+            "zt-19-v09",
+            "zt-19-v12"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-19-slide-003",
+            "zt-19-slide-004",
+            "zt-19-slide-005",
+            "zt-19-slide-008",
+            "zt-19-slide-009",
+            "zt-19-slide-010"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-19-step-2",
+          "lessonId": "zt-19",
+          "number": 2,
+          "position": 92,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-19-q-meaning",
+            "zt-19-q-gifts"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-19-reading-6",
+            "zt-19-reading-11"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-19-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-19-slide-006",
+            "zt-19-slide-011"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-19-step-3",
+          "lessonId": "zt-19",
+          "number": 3,
+          "position": 93,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-19-q-recipient",
+            "zt-19-q-transformation"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-19-pattern-ba",
+            "zt-19-pattern-recipient",
+            "zt-19-pattern-gei"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-19-slide-003",
+            "zt-19-slide-008",
+            "zt-19-slide-011",
+            "zt-19-slide-013"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-19-step-4",
+          "lessonId": "zt-19",
+          "number": 4,
+          "position": 94,
+          "stage": "communicate",
+          "title": "A gift handover and a participation question",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-19-q-limits",
+            "zt-19-q-handover"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-19-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-19-slide-003",
+            "zt-19-slide-004",
+            "zt-19-slide-006",
+            "zt-19-slide-007",
+            "zt-19-slide-008",
+            "zt-19-slide-009",
+            "zt-19-slide-011",
+            "zt-19-slide-012",
+            "zt-19-slide-013",
+            "zt-19-slide-014",
+            "zt-19-slide-015",
+            "zt-19-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-19-step-5",
+          "lessonId": "zt-19",
+          "number": 5,
+          "position": 95,
+          "stage": "apply",
+          "title": "A ceremony briefing and handover",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 18,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-19-writing"
+          ],
+          "sourceRefs": [
+            "zt-19-slide-003",
+            "zt-19-slide-004",
+            "zt-19-slide-006",
+            "zt-19-slide-007",
+            "zt-19-slide-008",
+            "zt-19-slide-009",
+            "zt-19-slide-011",
+            "zt-19-slide-012",
+            "zt-19-slide-013",
+            "zt-19-slide-014",
+            "zt-19-slide-015",
+            "zt-19-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    },
+    {
+      "id": "zt-20",
+      "number": 20,
+      "title": "不要穿鞋进佛殿",
+      "subtitle": "Temple interpretation & considerate guidance",
+      "status": "available",
+      "steps": [
+        {
+          "id": "zt-20-step-1",
+          "lessonId": "zt-20",
+          "number": 1,
+          "position": 96,
+          "stage": "discover",
+          "title": "Recall the words that do the work",
+          "brief": "Retrieve useful expressions in context. The full vocabulary remains available.",
+          "minutes": 8,
+          "questionIds": [
+            "zt-20-q-tour",
+            "zt-20-q-time"
+          ],
+          "vocabularyIds": [
+            "zt-20-v01",
+            "zt-20-v02",
+            "zt-20-v03",
+            "zt-20-v04",
+            "zt-20-v05",
+            "zt-20-v06",
+            "zt-20-v07",
+            "zt-20-v08",
+            "zt-20-v09",
+            "zt-20-v10",
+            "zt-20-v11",
+            "zt-20-expression-25"
+          ],
+          "coreVocabularyIds": [
+            "zt-20-v01",
+            "zt-20-v02",
+            "zt-20-v03",
+            "zt-20-v07",
+            "zt-20-v08",
+            "zt-20-v11",
+            "zt-20-expression-25"
+          ],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-20-slide-003",
+            "zt-20-slide-004",
+            "zt-20-slide-005",
+            "zt-20-slide-006",
+            "zt-20-slide-009",
+            "zt-20-slide-010",
+            "zt-20-slide-011",
+            "zt-20-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-20-step-2",
+          "lessonId": "zt-20",
+          "number": 2,
+          "position": 97,
+          "stage": "understand",
+          "title": "Read between the lines",
+          "brief": "Interpret the original dialogues and distinguish evidence from inference.",
+          "minutes": 12,
+          "questionIds": [
+            "zt-20-q-first-visit",
+            "zt-20-q-destination",
+            "zt-20-q-scope"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [
+            "zt-20-reading-7",
+            "zt-20-reading-12"
+          ],
+          "patternIds": [],
+          "taskIds": [
+            "zt-20-interpretation"
+          ],
+          "sourceRefs": [
+            "zt-20-slide-007",
+            "zt-20-slide-012"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-20-step-3",
+          "lessonId": "zt-20",
+          "number": 3,
+          "position": 98,
+          "stage": "build",
+          "title": "Build a flexible response",
+          "brief": "Practise source patterns, then produce connected Chinese independently.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-20-q-instruction",
+            "zt-20-q-contrast"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [
+            "zt-20-pattern-prohibition",
+            "zt-20-pattern-contrast",
+            "zt-20-pattern-experience"
+          ],
+          "taskIds": [],
+          "sourceRefs": [
+            "zt-20-slide-003",
+            "zt-20-slide-007",
+            "zt-20-slide-009",
+            "zt-20-slide-012",
+            "zt-20-slide-014"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-20-step-4",
+          "lessonId": "zt-20",
+          "number": 4,
+          "position": 99,
+          "stage": "communicate",
+          "title": "A rule enquiry with a real concern",
+          "brief": "Listen with a partner if available, negotiate a change and save a rehearsal reflection.",
+          "minutes": 10,
+          "questionIds": [
+            "zt-20-q-access"
+          ],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-20-roleplay"
+          ],
+          "sourceRefs": [
+            "zt-20-slide-003",
+            "zt-20-slide-004",
+            "zt-20-slide-005",
+            "zt-20-slide-007",
+            "zt-20-slide-008",
+            "zt-20-slide-009",
+            "zt-20-slide-010",
+            "zt-20-slide-012",
+            "zt-20-slide-013",
+            "zt-20-slide-014",
+            "zt-20-slide-015",
+            "zt-20-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        },
+        {
+          "id": "zt-20-step-5",
+          "lessonId": "zt-20",
+          "number": 5,
+          "position": 100,
+          "stage": "apply",
+          "title": "A considerate cultural-site briefing",
+          "brief": "Create the source-based outcome, check formative answers and reflect.",
+          "minutes": 18,
+          "questionIds": [],
+          "vocabularyIds": [],
+          "coreVocabularyIds": [],
+          "readingIds": [],
+          "patternIds": [],
+          "taskIds": [
+            "zt-20-writing"
+          ],
+          "sourceRefs": [
+            "zt-20-slide-003",
+            "zt-20-slide-004",
+            "zt-20-slide-005",
+            "zt-20-slide-007",
+            "zt-20-slide-008",
+            "zt-20-slide-009",
+            "zt-20-slide-010",
+            "zt-20-slide-012",
+            "zt-20-slide-013",
+            "zt-20-slide-014",
+            "zt-20-slide-015",
+            "zt-20-slide-016"
+          ],
+          "origin": "adaptation",
+          "approval": "author_adapted_pending_teacher"
+        }
+      ]
+    }
+  ]
+}
