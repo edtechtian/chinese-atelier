@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "engine": "Pyodide 0.29.0",
+  "lessonCount": 20,
+  "storage": "IndexedDB on this browser; no cloud student records",
+  "files": {
+    "daily.css": "d95a71cd1dd197f36930566a31fe714368ad8839b8cb2a14654af30092e8a6a8",
+    "boot.js": "38763c0c2f1b1006e0268f14159052b058b8eddba53eb2c8605e5ab82bf31dd8",
+    "index.html": "796b7737017cc33a01a686fa0c9496456ca0c80db8a0fdea74c86bc683023519",
+    "styles.css": "647ec471c8867f4030f58d20798151947538e7f41179c36d96956d26d7a80187",
+    "adventure.css": "f3f5f49d6eeb2b7889d114816adee4e301b91dd568cbc997a7349258e1eb6b56",
+    "worker.js": "6600e64ce5a9b8247ef8f0cd6d588416a00f4675c5082fa8c541282d2d13f6af",
+    "bridge.py": "8cca716cf916c7fac04b338104dd9ba932a7715d0cd85ebbbcc191bc41ab0bb6",
+    "lib.js": "24ebb047da1dd1b07aea978646ba16f469765c6a49eb41f4f764c8ba7f1c0eaa",
+    "course.zip": "7956ae5e96f4c7244e34bb1e29249e055a1c5e35ac7aedca90e9cab183841dc0",
+    "teacher.js": "93c5d914aa2e71d36f8e8beb26dfa83d93240816e0cf31f8536879e4e9261970",
+    "browser.css": "fb634dabbf48af67837d2de1da2935f1ccb66c1e4310876346008b341173f52b",
+    "daily.js": "e9b9314d1922e4be44c7b68c1739795bd3e6f707fbbf8eebb081a0a37cbe18ed",
+    "browser-api.js": "add2df845bc472393d3af09897b4d8bff943498fdc852a844d0e3bea8baf69fb",
+    "adventure-ui.js": "390fc5c443b06feada05c402c4969ca1a750037a66bee0052b444e9446782035",
+    "rewards.js": "16f9199a013b75a8005128252c5ef37021830904d84b63f34b22e541394691cc",
+    "visual.js": "90518e2e5a4dfbd8ccd60db60eecf11a0f7333095802cc1b5ffed595d014a634",
+    "app.js": "41e3131b89e9082f3cefe3be217204a345ff1b4b2416841bc18be38d4644732b"
+  }
+}
