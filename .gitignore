@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+!.env.example
+/data/*
+!/data/curriculum.json
+/sources/*
+!/sources/.gitkeep
+/public/assets/source/*
+!/public/assets/source/.gitkeep
+*.log
+test-results/
+/private/
