@@ -2,6 +2,10 @@
 
 A personal Chinese learning adventure for a Grade 11 Chinese B learner, focused on tourism and hospitality. Built with Python standard-library HTTP APIs and vanilla JavaScript/CSS. No paid service, API key, database or package installation is needed.
 
+## Use online
+
+**Open https://edtechtian.github.io/chinese-atelier/ to start learning in your browser.** No installation or local server is required. Progress and writing stay in this browser on this device; export portfolio backups before clearing site data. The online teaching view sees the same browser records and is not authenticated or cloud-synced. See [browser edition details](docs/browser_edition.md).
+
 ## Run locally
 
 Python 3.10+ is required.
@@ -14,7 +18,7 @@ python3 server.py --port 8001
 
 Open http://localhost:8001/#/home. Teacher view: http://localhost:8001/teacher. The first launch generates a private teacher key and empty student records; the key is shown in the local terminal. Stop with Control-C.
 
-**GitHub hosts this source repository. GitHub Pages cannot run this Python backend. This repository URL is not a hosted multi-user learning application.** The server deliberately accepts localhost requests only. Do not expose it publicly without adding appropriate authentication, per-student data separation and production hosting.
+**GitHub Pages runs the browser edition using WebAssembly. The repository URL is the source code; the Pages URL is the usable app. The original Python HTTP server remains a separate local application.** The server deliberately accepts localhost requests only. Do not expose it publicly without adding appropriate authentication, per-student data separation and production hosting.
 
 ## Included features
 
