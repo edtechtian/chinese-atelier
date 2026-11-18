@@ -25,10 +25,17 @@ def analytics(h):
     return {'dashboard':d,'reviewAttempts':len(scored),'reviewSuccessRate':round(len(good)/len(scored)*100) if scored else None,'objectiveSuccessRate':round(sum(r['objectiveCorrect'] for r in known)/len(known)*100) if known else None,'selfRated':len(scored)-len(known),'retention':{k:sum(r['mastery']==k for r in l['srs'].values()) for k in ['new','learning','reviewing','relearning','mastered']},'support':L.queue(l,items,'support')[:20],'work':sorted(l['work'].values(),key=lambda r:r['updatedAt'],reverse=True),'reviews':scored[-30:][::-1],'recommendations':l['recommendations'],'items':L.queue(l,items,'all'),'grammarErrors':[dict(id=i,label=items[i]['label'],failures=r['failedReviews'],nextReviewAt=r['nextReviewAt']) for i,r in l['srs'].items() if i in items and (items[i]['kind']=='grammar' or items[i]['data'].get('category')=='grammar') and r['failedReviews']]}
 
 def get(h,path):
-    if path not in {'/api/learning','/api/learning/reviews','/api/learning/phrases','/api/learning/challenges','/api/teacher/learning'}:return False
+    if path not in {'/api/learning','/api/learning/vocabulary','/api/learning/reviews','/api/learning/phrases','/api/learning/challenges','/api/teacher/learning'}:return False
     l,items=context(h);query=parse_qs(urlsplit(h.path).query)
     if path=='/api/learning':
         result=L.dashboard(h.store.curriculum,h.store.state);h.store.save_state();h.send(result)
+    elif path=='/api/learning/vocabulary':
+        rows=[];lessons=[]
+        for lesson in h.store.curriculum['lessons']:
+            lessons.append({'id':lesson['id'],'number':lesson['number'],'title':lesson['originalTitle'],'count':len(lesson['vocabulary'])})
+            for word in lesson['vocabulary']:
+                rows.append(dict(copy.deepcopy(word),lessonId=lesson['id'],lessonNumber=lesson['number'],lessonTitle=lesson['originalTitle'],record=copy.deepcopy(l['srs'].get(word['id']))))
+        h.send({'items':rows,'lessons':lessons,'total':len(rows),'notice':'Self-rated vocabulary recall, not teacher-certified proficiency.'})
     elif path=='/api/learning/reviews':
         mode=query.get('mode',['due'])[0];require(mode in {'due','overdue','upcoming','mastered','support','all'},'Unknown review view.')
         rows=L.queue(l,items,mode);h.send({'counts':L.review_counts(l,items),'items':rows[:100],'total':len(rows),'limit':L.dashboard(h.store.curriculum,h.store.state)['reviewLimit']})
