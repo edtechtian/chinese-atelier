@@ -578,11 +578,7 @@
         "zt-17-slide-002"
       ],
       "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared. Local educational use.",
-      "status": "visible_features_checked_pending_teacher",
-      "responsive": {
-        "480": "/assets/visual/source-47-480.webp",
-        "960": "/assets/visual/source-47-960.webp"
-      }
+      "status": "visible_features_checked_pending_teacher"
     },
     "source-53": {
       "id": "source-53",
@@ -599,6 +595,86 @@
         "480": "/assets/visual/source-53-480.webp",
         "960": "/assets/visual/source-53-960.webp"
       }
+    },
+    "source-1": {
+      "id": "source-1",
+      "src": "/assets/source/9d367ce3554595ce/3af148fbed.jpg",
+      "alt": "An original PPT illustration of travellers with luggage in an airport waiting area.",
+      "kind": "source_illustration",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-01-slide-002"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-1-480.webp",
+        "960": "/assets/visual/source-1-960.webp"
+      }
+    },
+    "source-7": {
+      "id": "source-7",
+      "src": "/assets/source/5792c8b1bcb90a9e/da9dd84922.jpg",
+      "alt": "A photograph of a hotel building and swimming pool from the original PPT.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-03-slide-005"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-7-480.webp",
+        "960": "/assets/visual/source-7-960.webp"
+      }
+    },
+    "source-20": {
+      "id": "source-20",
+      "src": "/assets/source/0ae5a11bebe6b31f/aaee4a234d.jpeg",
+      "alt": "A pineapple with sliced fruit, used as an example of fruit; not a picture of every fruit.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-07-slide-010"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-20-480.webp",
+        "960": "/assets/visual/source-20-960.webp"
+      }
+    },
+    "source-24": {
+      "id": "source-24",
+      "src": "/assets/source/479881c1731fa9ab/56887611d1.jpg",
+      "alt": "An original PPT illustration of a hiker with a backpack facing mountain scenery.",
+      "kind": "source_illustration",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-08-slide-010"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-24-480.webp",
+        "960": "/assets/visual/source-24-960.webp"
+      }
+    },
+    "source-45": {
+      "id": "source-45",
+      "src": "/assets/source/752fc3e6c6472a48/5215e004e7.jpeg",
+      "alt": "Sky lanterns floating into a dark sky in an original PPT image.",
+      "kind": "source_photo",
+      "origin": "textbook_asset",
+      "sourceRefs": [
+        "zt-16-slide-013"
+      ],
+      "attribution": "Original supplied 《走遍泰国》 PPT · Prince of Songkla University Phuket Confucius Institute. Embedded third-party rights are not independently cleared.",
+      "status": "visible_features_checked_pending_teacher",
+      "responsive": {
+        "480": "/assets/visual/source-45-480.webp",
+        "960": "/assets/visual/source-45-960.webp"
+      }
     }
   },
   "units": [
@@ -610,140 +686,165 @@
         {
           "itemId": "zt-01-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v02",
-          "imageId": "airport",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": "source-1",
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-01-slide-002"
+          ]
         },
         {
           "itemId": "zt-01-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v13",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v14",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v15",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v16",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v17",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v18",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v19",
-          "imageId": "passport",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v20",
-          "imageId": "boarding-pass",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v21",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v22",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-01-v23",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -752,7 +853,7 @@
           "type": "picture_choice",
           "title": "See it. Name it.",
           "prompt": "Look at the picture. Which Chinese expression fits?",
-          "imageId": "airport",
+          "imageId": "source-1",
           "options": [
             {
               "id": "zt-01-v19",
@@ -854,7 +955,7 @@
           "pairs": [
             {
               "id": "0",
-              "imageId": "airport"
+              "imageId": "source-1"
             },
             {
               "id": "1",
@@ -939,122 +1040,146 @@
         {
           "itemId": "zt-02-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v11",
-          "imageId": "hotel",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": "source-7",
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-03-slide-005"
+          ]
         },
         {
           "itemId": "zt-02-v12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v13",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v14",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v15",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-v16",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-expression-01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-expression-02",
           "imageId": "source-4",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-02-slide-008"
+          ]
         },
         {
           "itemId": "zt-02-expression-03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-02-expression-04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -1063,7 +1188,7 @@
           "type": "picture_choice",
           "title": "See it. Name it.",
           "prompt": "Look at the picture. Which Chinese expression fits?",
-          "imageId": "hotel",
+          "imageId": "source-7",
           "options": [
             {
               "id": "zt-02-expression-02",
@@ -1132,7 +1257,7 @@
           "pairs": [
             {
               "id": "0",
-              "imageId": "hotel"
+              "imageId": "source-7"
             },
             {
               "id": "1",
@@ -1208,92 +1333,109 @@
         {
           "itemId": "zt-03-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v03",
-          "imageId": "checkin",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v05",
           "imageId": "source-5",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-03-slide-001"
+          ]
         },
         {
           "itemId": "zt-03-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v07",
-          "imageId": "key-card",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-v13",
-          "imageId": "suitcase",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-expression-05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-03-expression-06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -1683,92 +1825,109 @@
         {
           "itemId": "zt-04-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v08",
           "imageId": "source-15",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-06-slide-005"
+          ]
         },
         {
           "itemId": "zt-04-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-v12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-expression-07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-expression-08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-04-expression-09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -1852,68 +2011,79 @@
         {
           "itemId": "zt-05-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v03",
-          "imageId": "bank",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-expression-10",
-          "imageId": "money",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-05-expression-11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -2066,80 +2236,93 @@
         {
           "itemId": "zt-06-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v09",
-          "imageId": "airplane",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-expression-12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-06-expression-13",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -2223,74 +2406,92 @@
         {
           "itemId": "zt-07-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v03",
           "imageId": "source-19",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-07-slide-002"
+          ]
         },
         {
           "itemId": "zt-07-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v09",
-          "imageId": "market",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": "source-20",
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-07-slide-010"
+          ]
         },
         {
           "itemId": "zt-07-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-07-v12",
           "imageId": "source-18",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-07-slide-001"
+          ]
         }
       ],
       "activities": [
@@ -2332,7 +2533,7 @@
           "type": "picture_choice",
           "title": "See it. Name it.",
           "prompt": "Look at the picture. Which Chinese expression fits?",
-          "imageId": "market",
+          "imageId": "source-20",
           "options": [
             {
               "id": "zt-07-v03",
@@ -2405,7 +2606,7 @@
             },
             {
               "id": "1",
-              "imageId": "market"
+              "imageId": "source-20"
             },
             {
               "id": "2",
@@ -2487,62 +2688,74 @@
         {
           "itemId": "zt-08-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v02",
-          "imageId": "mountain",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": "source-24",
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-08-slide-010"
+          ]
         },
         {
           "itemId": "zt-08-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-08-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -2551,7 +2764,7 @@
           "type": "picture_choice",
           "title": "See it. Name it.",
           "prompt": "Look at the picture. Which Chinese expression fits?",
-          "imageId": "mountain",
+          "imageId": "source-24",
           "options": [
             {
               "id": "zt-01-v19",
@@ -2625,99 +2838,119 @@
       "vocabulary": [
         {
           "itemId": "zt-09-v01",
-          "imageId": "menu",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v08",
-          "imageId": "food",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": "source-26",
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-09-slide-001"
+          ]
         },
         {
           "itemId": "zt-09-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v13",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-v14",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-09-expression-14",
           "imageId": "source-26",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-09-slide-001"
+          ]
         },
         {
           "itemId": "zt-09-expression-15",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -2759,7 +2992,7 @@
           "type": "picture_choice",
           "title": "See it. Name it.",
           "prompt": "Look at the picture. Which Chinese expression fits?",
-          "imageId": "food",
+          "imageId": "source-26",
           "options": [
             {
               "id": "zt-09-v01",
@@ -2832,7 +3065,7 @@
             },
             {
               "id": "1",
-              "imageId": "food"
+              "imageId": "source-26"
             },
             {
               "id": "2",
@@ -2914,56 +3147,65 @@
         {
           "itemId": "zt-10-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-10-expression-16",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -2997,86 +3239,102 @@
         {
           "itemId": "zt-11-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v05",
           "imageId": "source-31",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-11-slide-005"
+          ]
         },
         {
           "itemId": "zt-11-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-expression-17",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-expression-18",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-11-expression-19",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -3160,80 +3418,93 @@
         {
           "itemId": "zt-12-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v05",
-          "imageId": "clothes",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v06",
-          "imageId": "clothes",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-v12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-12-expression-20",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -3386,56 +3657,65 @@
         {
           "itemId": "zt-13-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-13-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -3469,80 +3749,93 @@
         {
           "itemId": "zt-14-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v12",
-          "imageId": "sunrise",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-14-v13",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -3626,80 +3919,99 @@
         {
           "itemId": "zt-15-v01",
           "imageId": "source-40",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-15-slide-006"
+          ]
         },
         {
           "itemId": "zt-15-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-v06",
           "imageId": "source-42",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-15-slide-009"
+          ]
         },
         {
           "itemId": "zt-15-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-v08",
           "imageId": "source-41",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-15-slide-009"
+          ]
         },
         {
           "itemId": "zt-15-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-expression-21",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-15-expression-22",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -3895,86 +4207,106 @@
         {
           "itemId": "zt-16-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v05",
           "imageId": "source-44",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-16-slide-010"
+          ]
         },
         {
           "itemId": "zt-16-v06",
-          "imageId": "lantern",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": "source-45",
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-16-slide-013"
+          ]
         },
         {
           "itemId": "zt-16-v07",
           "imageId": "source-43",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-16-slide-004"
+          ]
         },
         {
           "itemId": "zt-16-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v12",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v13",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-16-v14",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -4017,7 +4349,7 @@
           "type": "picture_choice",
           "title": "See it. Name it.",
           "prompt": "Look at the picture. Which Chinese expression fits?",
-          "imageId": "lantern",
+          "imageId": "source-45",
           "options": [
             {
               "id": "zt-16-v05",
@@ -4092,7 +4424,7 @@
             },
             {
               "id": "1",
-              "imageId": "lantern"
+              "imageId": "source-45"
             },
             {
               "id": "2",
@@ -4174,74 +4506,88 @@
         {
           "itemId": "zt-17-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v06",
-          "imageId": "wai",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": "source-47",
+          "status": "ppt_image_pending_teacher",
+          "reason": null,
+          "imageSourceRefs": [
+            "zt-17-slide-002"
+          ]
         },
         {
           "itemId": "zt-17-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-17-expression-23",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -4250,7 +4596,7 @@
           "type": "picture_choice",
           "title": "See it. Name it.",
           "prompt": "Look at the picture. Which Chinese expression fits?",
-          "imageId": "wai",
+          "imageId": "source-47",
           "options": [
             {
               "id": "zt-01-v19",
@@ -4327,74 +4673,86 @@
         {
           "itemId": "zt-18-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v05",
-          "imageId": "splash",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v06",
-          "imageId": "splash",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-18-expression-24",
-          "imageId": "splash",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -4596,74 +4954,86 @@
         {
           "itemId": "zt-19-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v09",
-          "imageId": "gift",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v10",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v11",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-19-v12",
-          "imageId": "flowers",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
@@ -4821,74 +5191,86 @@
         {
           "itemId": "zt-20-v01",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v02",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v03",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v04",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v05",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v06",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v07",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v08",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v09",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v10",
-          "imageId": "shoes",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-v11",
-          "imageId": "temple",
-          "status": "mapped_pending_teacher",
-          "reason": null
+          "imageId": null,
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         },
         {
           "itemId": "zt-20-expression-25",
           "imageId": null,
-          "status": "context_only",
-          "reason": "No verified literal image assigned. Use source context; abstract words do not need a generic decorative picture."
+          "status": "text_only_no_verified_ppt_image",
+          "reason": "No visually verified matching PPT picture. Review the word and its source sentence without an unrelated illustration.",
+          "imageSourceRefs": []
         }
       ],
       "activities": [
