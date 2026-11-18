@@ -69,7 +69,7 @@ def post(h,path,b):
             # Keep recent sessions; elapsed time is never supplied by the client.
             for old in list(sessions)[:-20]:sessions.pop(old)
     elif path=='/api/learning/step':
-        s=step(h,b.get('stepId'));require(s is not None,'Learning step not found.',404);require(s['state']!='locked','Complete the preceding step first. Reviews and source materials remain available.',409)
+        s=step(h,b.get('stepId'));require(s is not None,'Learning step not found.',404)
         r=copy.deepcopy(l['steps'].get(s['id'],{}));r.setdefault('startedAt',L.iso(at));lesson=h.get_lesson(s['lessonId']);require(lesson['status'] in {'available','published'},'This source lesson needs teacher preparation before learning.',409);r['updatedAt']=L.iso(at)
         if 'text' in b:
             text=b['text'];require(isinstance(text,str) and len(text)<=4000,'Use text up to 4,000 characters.');r['text']=text
@@ -87,10 +87,14 @@ def post(h,path,b):
                 require(all(attempts.get(q['id'],{}).get('correct') for q in lesson['questions']),'Revisit the formative checks that still need correction.',409)
             first=not r.get('completed');r.update(completed=True,completedAt=r.get('completedAt',L.iso(at)));out['xpEarned']=L.award(l,'step:'+s['id'],25,'step',at) if first else 0
             for iid in s['patternIds']+s['taskIds']:L.enroll(l,items[iid],at)
-            if s['stage']=='apply':
-                p=h.progress(lesson['id']);p.update(completed=True,reflection=r['text'],updatedAt=L.iso(at))
             if first:activity(h,'Completed '+s['stage'].upper()+' · '+lesson['title'],lesson['id'])
-        l['steps'][s['id']]=r;h.progress(lesson['id']);out.update(record=r,stepId=s['id'],completedUnits=sum(u['completed'] for u in L.path_state(h.store.curriculum,h.store.state)['units']))
+        l['steps'][s['id']]=r;h.progress(lesson['id'])
+        units=L.path_state(h.store.curriculum,h.store.state)['units']
+        unit=next(u for u in units if u['id']==lesson['id'])
+        if unit['completed']:
+            reflection=l['steps'].get(lesson['id']+'-step-5',{}).get('text','')
+            h.progress(lesson['id']).update(completed=True,reflection=reflection,updatedAt=L.iso(at))
+        out.update(record=r,stepId=s['id'],unitCompleted=unit['completed'],completedUnits=sum(u['completed'] for u in units))
     elif path=='/api/learning/phrases':
         theme=b.get('theme','Tourism');require(theme in L.THEMES,'Choose a phrasebook theme.')
         pid=b.get('phraseId')
@@ -143,7 +147,7 @@ def post(h,path,b):
         if kind=='challenge':
             task=next((c for c in L.challenge_catalog(h.store.curriculum) if c['id']==id),None);require(task is not None,'Challenge not found.',404);key=day+':'+id;minimum=task['minCharacters'];title=task['title']
         else:
-            s=step(h,id);require(s is not None and s['stage']=='build','Build step not found.',404);require(s['state']!='locked','Open the preceding step first.',409);key=id;minimum=20;title=s['title']
+            s=step(h,id);require(s is not None and s['stage']=='build','Build step not found.',404);key=id;minimum=20;title=s['title']
         require(not submitted or L.chinese_count(text)>=minimum,f'Write at least {minimum} Chinese characters before submission.')
         old=l['work'].get(key,{});changed=old.get('text')!=text;review=old.get('teacherReview');history=old.get('reviewHistory',[])
         if changed and review:history=(history+[review])[-10:];review=None

@@ -82,12 +82,11 @@ def award(learning,key,xp,kind,at=None):
     learning['daily'].setdefault(day,{'activeSeconds':0,'events':[]})['events'].append({'kind':kind,'at':iso(at),'xp':xp})
     return xp
 def path_state(curriculum,state):
-    learning=initialize(state);path=build_path(curriculum);opened=True
+    learning=initialize(state);path=build_path(curriculum)
     for u in path['units']:
         for s in u['steps']:
             r=learning['steps'].get(s['id'],{});done=r.get('completed',False);ids=s['coreVocabularyIds']+s['patternIds']+s['questionIds']+s['taskIds'];mastered=bool(ids) and all(learning['srs'].get(i,{}).get('mastery')=='mastered' for i in ids)
-            s['state']='mastered' if done and mastered else 'completed' if done else 'in_progress' if opened and r else 'available' if opened else 'locked';s['record']=r
-            if not done:opened=False
+            s['state']='mastered' if done and mastered else 'completed' if done else 'in_progress' if r else 'available';s['record']=r
         u['completed']=all(s['state'] in {'completed','mastered'} for s in u['steps'])
     return path
 def review_counts(learning,items,at=None):
