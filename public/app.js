@@ -1,6 +1,8 @@
 import {visualView,visualEvent,visualSubmit,visualInput,visualPortfolio,vocabularyPicture,prepareVisual} from './visual.js';
 import {celebrate,encouragement} from './rewards.js';
 import {installPronunciation,registerPronunciation} from './pronunciation.js';
+import {installTranslation} from './translation.js';
+import {flashcardsView,flashcardsEvent,flashcardsSubmit} from './flashcards.js';
 import {api,esc,icon,notice,empty,date,toast,errorView,originLabel,sourceRefs,download,setTimeZone} from './lib.js';
 import {teacherView,teacherEvent,teacherSubmit} from './teacher.js';
 import {dailyView,dailyEvent,dailySubmit,dailyInput,microPortfolio,teacherDailySubmit,trackVisualClock} from './daily.js';
@@ -27,13 +29,13 @@ const removeDraft=(id)=>{try{localStorage.removeItem('atelier-draft-'+id);}catch
 
 function sidebar(teacher=false) {
   const r=route()[0]||'home';
-  const nav=teacher ? [['home','Student view','/#/home'],['book','Teacher desk','/teacher#/teacher/overview']] : [['home','Today','#/home'],['globe','Learning path','#/path'],['practice','Review Centre','#/review'],['book','Phrasebook','#/phrasebook'],['pin','Hospitality challenges','#/challenges'],['portfolio','Your portfolio','#/portfolio'],['folder','Source library','#/lessons']];
-  return '<aside class="sidebar" id="sidebar" aria-label="Main navigation"><a class="brand" href="'+(teacher?'/teacher':'#/home')+'"><span class="brand-mark" lang="zh">旅</span><span class="brand-name">Chinese Atelier<small>YOUR CHINESE ADVENTURE</small></span></a><div class="student-tag">'+(teacher?'TEACHER WORKSPACE':'EMMALYNE’S ADVENTURE')+'</div><nav class="nav">'+nav.map(([i,t,url],index)=>'<a href="'+url+'" class="'+((teacher?index===1:(['home','path','review','phrasebook','challenges','portfolio','lessons'][index]===r || (r==='step'&&index===1) || (r==='lesson'&&index===6)))?'active':'')+'">'+icon(i)+esc(t)+'<span class="nav-dot"></span></a>').join('')+'</nav><div class="sidebar-note">'+icon('globe')+'<p>A new word.<br>A wider world.</p><a class="text-link" href="/#/visual">Explore with pictures →</a></div><div class="profile"><span class="avatar">'+(teacher?'T':'E')+'</span><div><strong>'+ (teacher?'Teacher desk':'Emmalyne')+'</strong><small>'+(teacher?'Private local workspace':'Grade 11 · Chinese B')+'</small></div></div></aside>';
+  const nav=teacher ? [['home','Student view','/#/home'],['book','Teacher desk','/teacher#/teacher/overview']] : [['home','Today','#/home'],['globe','Learning path','#/path'],['practice','Review Centre','#/review'],['book','All vocabulary flashcards','#/flashcards'],['book','Phrasebook','#/phrasebook'],['pin','Hospitality challenges','#/challenges'],['portfolio','Your portfolio','#/portfolio'],['folder','Source library','#/lessons']];
+  return '<aside class="sidebar" id="sidebar" aria-label="Main navigation"><a class="brand" href="'+(teacher?'/teacher':'#/home')+'"><span class="brand-mark" lang="zh">旅</span><span class="brand-name">Chinese Atelier<small>YOUR CHINESE ADVENTURE</small></span></a><div class="student-tag">'+(teacher?'TEACHER WORKSPACE':'EMMALYNE’S ADVENTURE')+'</div><nav class="nav">'+nav.map(([i,t,url],index)=>'<a href="'+url+'" class="'+((teacher?index===1:(['home','path','review','flashcards','phrasebook','challenges','portfolio','lessons'][index]===r || (r==='step'&&index===1) || (r==='lesson'&&index===7)))?'active':'')+'">'+icon(i)+esc(t)+'<span class="nav-dot"></span></a>').join('')+'</nav><div class="sidebar-note">'+icon('globe')+'<p>A new word.<br>A wider world.</p><a class="text-link" href="/#/visual">Explore with pictures →</a></div><div class="profile"><span class="avatar">'+(teacher?'T':'E')+'</span><div><strong>'+ (teacher?'Teacher desk':'Emmalyne')+'</strong><small>'+(teacher?'Private local workspace':'Grade 11 · Chinese B')+'</small></div></div></aside>';
 }
 
 function shell(content,label,teacher=false) {
   const today=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:B.state.learning?.settings.timeZone||'Asia/Bangkok'}).format(new Date());
-  return sidebar(teacher)+'<div class="page"><header class="topbar"><div class="topbar-left"><button class="icon-button menu-button" data-action="menu" aria-label="Toggle navigation" aria-expanded="false">'+icon('menu')+'</button><span class="muted">Your atelier</span>'+icon('chevron')+'<strong>'+esc(label)+'</strong></div><div class="topbar-right"><time>'+today+'</time><span class="local-dot"></span><span>Saved on this device</span></div></header><main class="main" id="main" tabindex="-1">'+(!teacher?'<p class="pronunciation-tip">Tap any dotted-underlined Chinese text for pinyin. On a focused card or answer, press Alt+P. Click the rest of the card to open it.</p>':'')+content+'</main><footer class="page-footer"><span>《走遍泰国》 · Prince of Songkla University Phuket Confucius Institute</span><span>Local, private learning · <a href="#" data-action="privacy">About your data</a></span></footer></div>'+(!teacher?'<nav class="bottom-nav" aria-label="Mobile main navigation">'+[['home','Today','home'],['globe','Path','path'],['refresh','Review','review'],['book','Phrases','phrasebook'],['portfolio','Portfolio','portfolio']].map(([i,t,r])=>'<a href="#/'+r+'" class="'+((route()[0]||'home')===r?'active':'')+'">'+icon(i)+'<span>'+t+'</span></a>').join('')+'</nav>':'');
+  return sidebar(teacher)+'<div class="page"><header class="topbar"><div class="topbar-left"><button class="icon-button menu-button" data-action="menu" aria-label="Toggle navigation" aria-expanded="false">'+icon('menu')+'</button><span class="muted">Your atelier</span>'+icon('chevron')+'<strong>'+esc(label)+'</strong></div><div class="topbar-right"><time>'+today+'</time><span class="local-dot"></span><span>Saved on this device</span></div></header><main class="main" id="main" tabindex="-1">'+(!teacher?'<p class="pronunciation-tip">Tap a dotted-underlined Chinese word for pinyin. Select a sentence for English and Thai. On a focused card or answer, press Alt+P.</p>':'')+content+'</main><footer class="page-footer"><span>《走遍泰国》 · Prince of Songkla University Phuket Confucius Institute</span><span>Local, private learning · <a href="#" data-action="privacy">About your data</a></span></footer></div>'+(!teacher?'<nav class="bottom-nav" aria-label="Mobile main navigation">'+[['home','Today','home'],['globe','Path','path'],['refresh','Review','review'],['book','Words','flashcards'],['portfolio','Portfolio','portfolio']].map(([i,t,r])=>'<a href="#/'+r+'" class="'+((route()[0]||'home')===r?'active':'')+'">'+icon(i)+'<span>'+t+'</span></a>').join('')+'</nav>':'');
 }
 
 function intro(eyebrow,title,description,action='') {
@@ -235,6 +237,7 @@ async function render(focus=false) {
     else if(r[0]==='lessons') {html=library();label='Lesson library';}
     else if(r[0]==='lesson'&&r[1]) {html=await lessonView(r[1],r[2]);label=sectionNames[r[2]]||'Lesson workspace';}
     else if(r[0]==='practice'){html=await practice(r[1]);label='Practice centre';}
+    else if(r[0]==='flashcards'){html=await flashcardsView();label='All vocabulary flashcards';}
     else if(r[0]==='visual'){html=await visualView(dailyContext(),r);label='Visual learning';}
     else if(r[0]==='portfolio'){html=portfolio()+microPortfolio(B,portfolioFilter)+visualPortfolio(B,portfolioFilter);label='Your portfolio';}
     else {html=await dailyView(dailyContext(),r);label=({path:'Learning path',step:'Learning step',review:'Review Centre',phrasebook:'Phrasebook',challenges:'Hospitality challenges',reminders:'Reminders'})[r[0]]||'Today';}
@@ -295,6 +298,7 @@ document.addEventListener('click',async e=>{
   const action=target.dataset.action;
   e.preventDefault();
   try{
+    if(action.startsWith('vocabulary-')){target.disabled=true;await flashcardsEvent(action,target,dailyContext());return;}
     if(action.startsWith('visual-')){target.disabled=true;await visualEvent(action,target,dailyContext());return;}
     if(action.startsWith('learn-')){target.disabled=true;await dailyEvent(action,target,dailyContext());return;}
     if(action==='menu'){const s=document.querySelector('#sidebar'),opened=s.classList.toggle('open');target.setAttribute('aria-expanded',opened);return;}
@@ -338,6 +342,7 @@ document.addEventListener('submit',async e=>{
   if(submitter)submitter.disabled=true;
   try{
     const kind=form.dataset.form,fd=new FormData(form);
+    if(kind==='vocabulary-filter'){await flashcardsSubmit(form,fd,dailyContext());return;}
     if(kind.startsWith('visual-')){await visualSubmit(kind,form,fd,dailyContext(),submitter);return;}
     if(['learn-recommend','learn-assess'].includes(kind)){await teacherDailySubmit(kind,form,fd,dailyContext());return;}
     if(kind.startsWith('learn-')){await dailySubmit(kind,form,fd,dailyContext(),submitter);return;}
@@ -387,6 +392,7 @@ window.addEventListener('hashchange',async()=>{
 window.addEventListener('beforeunload',()=>{document.querySelectorAll('.response-box').forEach(el=>putDraft(el.dataset.task,el.value));});
 currentRoute=location.hash;
 installPronunciation();
+installTranslation();
 await render();
 if(route()[0]==='lesson'&&activeLesson&&canLearn(activeLesson)){
   try{B.state.progress[activeLesson.id]=await api('/api/progress',{lessonId:activeLesson.id,section:route()[2]||'overview'});}catch(e){toast(e.message,true);}
