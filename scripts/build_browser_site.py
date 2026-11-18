@@ -5,11 +5,11 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
 SITE.mkdir(exist_ok=True)
-release_inputs=[*(ROOT/'public').glob('*.js'),*(ROOT/'public').glob('*.css'),*(ROOT/'app').glob('*.py')]
+release_inputs=[*(ROOT/'public').glob('*.js'),*(ROOT/'public').glob('*.css'),*(ROOT/'public').glob('*.json'),*(ROOT/'app').glob('*.py'),ROOT/'server.py',ROOT/'data/curriculum.json',ROOT/'curriculum/visual_learning.json']
 RELEASE=hashlib.sha256(b''.join(p.read_bytes() for p in sorted(release_inputs))).hexdigest()[:12]
 
 def versioned(text):
-    return re.sub(r'''(["'])\./([\w-]+\.(?:js|css|zip))(?:\?v=[^"']*)?(["'])''',lambda m:m[1]+'./'+m[2]+'?v='+RELEASE+m[3],text)
+    return re.sub(r'''(["'])\./([\w-]+\.(?:js|css|zip|json))(?:\?v=[^"']*)?(["'])''',lambda m:m[1]+'./'+m[2]+'?v='+RELEASE+m[3],text)
 
 def routes(text):
     return (text.replace('/teacher#/teacher/', '#/teacher/')
@@ -42,6 +42,7 @@ for source in (ROOT/'public').iterdir():
     (SITE/source.name).write_text(versioned(text))
 
 (SITE/'pinyin-engine-LICENSE.txt').write_bytes((ROOT/'public/pinyin-engine-LICENSE.txt').read_bytes())
+(SITE/'language-support.json').write_bytes((ROOT/'public/language-support.json').read_bytes())
 for name in ['browser-api.js','worker.js']:
     p=SITE/name;p.write_text(versioned(p.read_text()))
 
