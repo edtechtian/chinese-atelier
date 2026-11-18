@@ -2,7 +2,7 @@ let worker,sequence=0;
 const pending=new Map();
 function engine(){
   if(!worker){
-    worker=new Worker(new URL('./worker.js',import.meta.url),{type:'module'});
+    worker=new Worker(new URL('./worker.js?v=1f592a6fd73d',import.meta.url),{type:'module'});
     worker.onmessage=({data})=>{
       if(data.type==='status'){const line=document.querySelector('#engine-status');if(line)line.textContent=data.message;return;}
       if(data.type==='fatal'){for(const p of pending.values())p.reject(new Error(data.message));pending.clear();return;}
