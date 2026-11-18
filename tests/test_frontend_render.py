@@ -12,6 +12,10 @@ if not NODE:
 
 
 class FrontendRenderTests(unittest.TestCase):
+    @unittest.skipUnless(NODE, 'Node is needed for pronunciation and navigation checks')
+    def test_pronunciation_and_open_cards(self):
+        result = subprocess.run([NODE, str(ROOT / 'tests/frontend_support.mjs')], capture_output=True, text=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
     @unittest.skipUnless(NODE, 'Node is needed for the JavaScript network regression test')
     def test_visual_renderers(self):
         result = subprocess.run([NODE, str(ROOT / 'tests/frontend_visual.mjs')], capture_output=True, text=True)

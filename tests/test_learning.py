@@ -111,8 +111,8 @@ class LearningAPITests(AppTests):
   self.assertFalse(assessed['teacherReview']['officialGrade'])
   revised=self.request('/api/learning/work',{'kind':'challenge','id':'hospitality-welcome','text':r['text']+'我会再向您确认。','submit':False})['work'];self.assertIsNone(revised['teacherReview']);self.assertEqual(len(revised['reviewHistory']),1)
   self.stop();self.start();self.assertEqual(len(self.request('/api/learning/phrases')['items']),2);self.assertIn(r['id'],self.request('/api/bootstrap')['state']['learning']['work'])
- def test_all_100_steps_complete_unlock_and_xp_idempotence(self):
-  self.request('/api/learning/step',{'stepId':'zt-01-step-2'},status=409)
+ def test_all_100_steps_complete_and_xp_idempotence(self):
+  self.request('/api/learning/step',{'stepId':'zt-20-step-5'})
   # Perform all objective, retrieval, response and completion gates over real HTTP.
   for lesson in self.curriculum['lessons']:
    unit=next(u for u in self.request('/api/learning')['path']['units'] if u['id']==lesson['id'])
@@ -130,6 +130,27 @@ class LearningAPITests(AppTests):
     self.assertEqual(result['xpEarned'],25);self.assertEqual(self.request('/api/learning/step',{'stepId':s['id'],'complete':True,'acknowledge':True})['xpEarned'],0)
   d=self.request('/api/learning');self.assertEqual((d['completedSteps'],d['completedUnits']),(100,20));self.assertIsNone(d['nextStep'])
   self.assertEqual(sum(e['xp'] for k,e in self.server.store.state['learning']['xpLedger'].items() if k.startswith('step:')),2500)
+ def test_every_card_is_open_and_out_of_order_completion_is_honest(self):
+  path=self.request('/api/learning')['path']
+  self.assertEqual(sum(s['state']=='available' for u in path['units'] for s in u['steps']),100)
+  for unit in path['units']:
+   for s in reversed(unit['steps']):self.request('/api/learning/step',{'stepId':s['id']})
+  lesson=self.curriculum['lessons'][-1]
+  unit=self.request('/api/learning')['path']['units'][-1]
+  final=unit['steps'][-1]
+  for q in lesson['questions']:self.request('/api/attempt',{'lessonId':lesson['id'],'questionId':q['id'],'answer':q.get('answer') or q['acceptedAnswers'][0]})
+  for t in lesson['tasks']:
+   if t['id'] in final['taskIds']:self.request('/api/response',{'lessonId':lesson['id'],'taskId':t['id'],'text':t['model'],'submit':True})
+  result=self.request('/api/learning/step',{'stepId':final['id'],'complete':True,'acknowledge':True,'text':'现在我能用中文描述文化活动，并注意不同人的看法。'})
+  self.assertEqual(result['xpEarned'],25);self.assertFalse(result['unitCompleted'])
+  self.assertFalse(self.request('/api/bootstrap')['state']['progress'][lesson['id']]['completed'])
+  build=unit['steps'][2]
+  self.request('/api/learning/work',{'id':build['id'],'kind':'build','text':'我可以根据客人的问题先确认实际情况，然后清楚地解释下一步安排。','submit':True})
+  result=self.request('/api/learning/step',{'stepId':build['id'],'complete':True,'acknowledge':True})
+  self.assertFalse(result['unitCompleted'])
+  self.stop();self.start()
+  d=self.request('/api/learning');self.assertEqual((d['completedSteps'],d['completedUnits']),(2,0))
+  self.assertFalse(any(s['state']=='locked' for u in d['path']['units'] for s in u['steps']))
  def test_choice_feedback_and_teacher_edits_preserve_path(self):
   q=self.curriculum['lessons'][0]['questions'][0];p=self.request('/api/learning/review/start',{'itemId':q['id']})
   a=self.request('/api/learning/review/answer',{'token':p['token'],'answer':q['answer']})
