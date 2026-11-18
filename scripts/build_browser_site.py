@@ -5,6 +5,11 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 SITE=ROOT/'site'
 SITE.mkdir(exist_ok=True)
+release_inputs=[*(ROOT/'public').glob('*.js'),*(ROOT/'public').glob('*.css'),*(ROOT/'app').glob('*.py')]
+RELEASE=hashlib.sha256(b''.join(p.read_bytes() for p in sorted(release_inputs))).hexdigest()[:12]
+
+def versioned(text):
+    return re.sub(r'''(["'])\./([\w-]+\.(?:js|css|zip))(?:\?v=[^"']*)?(["'])''',lambda m:m[1]+'./'+m[2]+'?v='+RELEASE+m[3],text)
 
 def routes(text):
     return (text.replace('/teacher#/teacher/', '#/teacher/')
@@ -32,15 +37,22 @@ for source in (ROOT/'public').iterdir():
     text=routes(text)
     text=text.replace('Private local workspace','Same-device teaching view').replace('Teacher desk locked.','Teaching view closed.').replace('Lock teacher desk','Close teaching view')
     text=text.replace('Teacher assessment of this revision.','Same-device feedback; reviewer identity is not authenticated.')
-    (SITE/source.name).write_text(text)
+    text=text.replace('Browser recovery copy plus explicit server save.','Browser recovery copy plus explicit save to this browser.')
+    text=text.replace('They persist on this local server.','They stay in this browser on this device.')
+    (SITE/source.name).write_text(versioned(text))
+
+(SITE/'pinyin-engine-LICENSE.txt').write_bytes((ROOT/'public/pinyin-engine-LICENSE.txt').read_bytes())
+for name in ['browser-api.js','worker.js']:
+    p=SITE/name;p.write_text(versioned(p.read_text()))
 
 html=(ROOT/'public/index.html').read_text()
 html=routes(html).replace('href="/styles.css"','href="./styles.css"').replace('href="/daily.css"','href="./daily.css"').replace('href="/adventure.css"','href="./adventure.css"').replace('src="/app.js"','src="./boot.js"')
+html=html.replace('href="/support.css"','href="./support.css"')
 html=html.replace('Getting your next adventure ready…','<span id="engine-status" role="status">Preparing your 20-lesson course…</span><small>First visit downloads a private learning engine. Progress stays in this browser.</small>')
 html=html.replace('This local learning app','This learning app')
 html=html.replace('</head>','<link rel="stylesheet" href="./browser.css"></head>')
-(SITE/'index.html').write_text(html)
-(SITE/'boot.js').write_text("if(!location.hash)location.hash='#/home';\nawait import('./app.js');\n")
+(SITE/'index.html').write_text(versioned(html))
+(SITE/'boot.js').write_text(versioned("if(!location.hash)location.hash='#/home';\nawait import('./app.js');\n"))
 (SITE/'browser.css').write_text('.browser-privacy{background:#edf5e8;color:#304530;padding:10px 28px;font-size:12px;border-bottom:1px solid #c9debd;line-height:1.5}.loading-screen small{display:block;max-width:340px;margin:12px auto;color:#566657;font-size:13px;line-height:1.5}.teacher-login a{display:block;margin-top:20px}\n')
 
 files=[ROOT/'server.py',*(ROOT/'app').glob('*.py'),ROOT/'data/curriculum.json',ROOT/'curriculum/visual_learning.json',SITE/'bridge.py']
@@ -50,6 +62,6 @@ with zipfile.ZipFile(SITE/'course.zip','w',zipfile.ZIP_DEFLATED,compresslevel=9)
         text=p.read_text()
         if p.suffix=='.json':text=routes(text)
         archive.writestr(name,text)
-manifest={'schemaVersion':1,'engine':'Pyodide 0.29.0','lessonCount':20,'storage':'IndexedDB on this browser; no cloud student records','files':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in SITE.iterdir() if p.is_file() and p.name!='build.json'}}
+manifest={'schemaVersion':1,'release':RELEASE,'engine':'Pyodide 0.29.0','lessonCount':20,'storage':'IndexedDB on this browser; no cloud student records','files':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in SITE.iterdir() if p.is_file() and p.name!='build.json'}}
 (SITE/'build.json').write_text(json.dumps(manifest,indent=2))
 print('Built',len(files),'source modules/data files; course.zip', (SITE/'course.zip').stat().st_size,'bytes')
