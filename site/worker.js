@@ -9,7 +9,7 @@ async function initialize() {
   postMessage({type:'status',message:'Starting your private learning engine…'});
   python = await loadPyodide({indexURL:new URL('./runtime/', import.meta.url).href});
   await python.loadPackage('tzdata');
-  const response = await fetch(new URL('./course.zip?v=1f592a6fd73d',import.meta.url));
+  const response = await fetch(new URL('./course.zip?v=68969ca6a5a3',import.meta.url));
   if (!response.ok) throw new Error('The course download failed. Reload when your connection is ready.');
   python.unpackArchive(await response.arrayBuffer(),'zip',{extractDir:'/atelier'});
   python.FS.mkdirTree('/atelier/data');

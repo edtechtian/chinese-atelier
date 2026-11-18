@@ -1,6 +1,6 @@
-import {teacherVisualPanel} from './visual.js?v=1f592a6fd73d';
-import {teacherLearningView} from './daily.js?v=1f592a6fd73d';
-import {api,esc,icon,notice,empty,date,toast,errorView,download} from './lib.js?v=1f592a6fd73d';
+import {teacherVisualPanel} from './visual.js?v=68969ca6a5a3';
+import {teacherLearningView} from './daily.js?v=68969ca6a5a3';
+import {api,esc,icon,notice,empty,date,toast,errorView,download} from './lib.js?v=68969ca6a5a3';
 let T=null;
 const tag=(text,c='')=>'<span class="tag '+c+'">'+esc(text)+'</span>';
 const teacherHref=(tab,id='')=>'#/teacher/'+tab+(id?'/'+id:'');

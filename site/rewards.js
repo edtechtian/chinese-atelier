@@ -1,4 +1,4 @@
-import {esc} from './lib.js?v=1f592a6fd73d';
+import {esc} from './lib.js?v=68969ca6a5a3';
 const lines={
  discover:['Useful expressions, ready for your next conversation. Your recall practice counts.','You made time to retrieve the language, Emmalyne. That is how it becomes easier to use.'],
  understand:['You worked through the meaning and the evidence. That is thoughtful reading.','One more text explored. Take a moment to notice what you understand more clearly now.'],

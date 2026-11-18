@@ -1,5 +1,5 @@
 export function esc(value) { return String(value == null ? '' : value).replace(/[&<>"']/g, function(c) { return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
-import {browserApi,browserDownload} from './browser-api.js?v=1f592a6fd73d';
+import {browserApi,browserDownload} from './browser-api.js?v=68969ca6a5a3';
 export const api=browserApi;
 export const paths = {
  home:'M3 10l9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1z',

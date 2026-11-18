@@ -1,7 +1,7 @@
-import {visualRecallCard,unitVisualIntro,vocabularyPicture,prepareVisual} from './visual.js?v=1f592a6fd73d';
-import {celebrate,encouragement,encouragementCard} from './rewards.js?v=1f592a6fd73d';
-import {dashboardView,adventurePath} from './adventure-ui.js?v=1f592a6fd73d';
-import {api,esc,icon,notice,empty,date,sourceRefs,toast,originLabel} from './lib.js?v=1f592a6fd73d';
+import {visualRecallCard,unitVisualIntro,vocabularyPicture,prepareVisual} from './visual.js?v=68969ca6a5a3';
+import {celebrate,encouragement,encouragementCard} from './rewards.js?v=68969ca6a5a3';
+import {dashboardView,adventurePath} from './adventure-ui.js?v=68969ca6a5a3';
+import {api,esc,icon,notice,empty,date,sourceRefs,toast,originLabel} from './lib.js?v=68969ca6a5a3';
 let D=null,C=null,currentReview=null,reviewResult=null,lastReview=null,reviewReturn='#/review',reviewMode='due',phraseTheme='All themes',phraseQuery='',sessionToken=null,sessionKey='',lastInteraction=Date.now(),completedInSession=0;
 const stages=['discover','understand','build','communicate','apply'];
 const stageIcons={discover:'globe',understand:'book',build:'practice',communicate:'sound',apply:'check'};
