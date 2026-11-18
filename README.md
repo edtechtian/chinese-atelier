@@ -24,12 +24,15 @@ Open http://localhost:8001/#/home. Teacher view: http://localhost:8001/teacher. 
 
 - 20 original source-linked units × 5 daily learning steps (100 nodes).
 - Daily missions, actual XP/streak tracking, active-time goals and adaptive spaced review.
+- A complete 268-record flashcard deck across all 20 lessons, with lesson/search filters, two recall directions and persistent spaced-review coverage.
+- Phrase pinyin on click and locally cached English/Thai translations on sentence selection (supplementary machine translations pending teacher review).
+- Grey unfinished path nodes, green completed nodes; every learning step remains directly accessible.
 - 268 vocabulary records, source readings, language development, objective exercises and open writing/role-play.
 - 92 supplementary visual activities, hotel exploration, schematic Thailand map and visual dialogue.
 - Persistent writing and progress, personal phrasebook, portfolio and protected teacher review/editor tools.
 - Responsive desktop, tablet and mobile layouts; reduced-motion support.
 
-All 20 curriculum units remain in order. Original source text, editorial adaptations and supplementary activities are labelled separately. Image coverage is partial: 38 vocabulary records have direct mappings, and 230 use context support. No supplied audio, recording, speech recognition or official IB grading is claimed.
+All 20 curriculum units remain in order. Original source text, editorial adaptations and supplementary activities are labelled separately. Image coverage is partial: 19 vocabulary records have verified original-PPT image mappings; 249 use text and source-sentence support. No supplied audio, recording, speech recognition or official IB grading is claimed.
 
 ## Publication boundaries
 
@@ -49,7 +52,7 @@ Full original-source validation, import and render tools require the separately 
 
 For ordinary teaching edits, use Teacher desk → Curriculum editor. The runtime course is data/curriculum.json. Visual activities/images are configured in curriculum/visual_learning.json. Original extraction is curriculum/lessons.json. Back up and reconcile teacher edits before rerunning generation scripts, which replace generated curriculum fields.
 
-See docs/microlearning_upgrade.md and docs/visual_redesign.md for architecture, scheduling and editing details. The historical QA report describes the local development version, not a live study with a student. All educational adaptations remain subject to teacher approval.
+See docs/vocabulary-support-update.md, docs/microlearning_upgrade.md and docs/visual_redesign.md for architecture, scheduling and editing details. The historical QA report describes the local development version, not a live study with a student. All educational adaptations remain subject to teacher approval.
 
 ## Privacy
 

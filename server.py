@@ -362,12 +362,15 @@ class Handler(BaseHTTPRequestHandler):
             item=learning_engine.catalog(self.store.curriculum,learning)[v['id']]
             existing=learning['srs'].get(v['id'])
             record=learning_engine.enroll(learning,item,due_now=True)
-            if existing is None or learning_engine.moment(record['nextReviewAt'])<=learning_engine.moment():
+            was_due=existing is None or not record.get('lastReviewedAt') or learning_engine.moment(record['nextReviewAt'])<=learning_engine.moment()
+            if was_due:
                 record=learning_engine.schedule(record,rating,learning['settings']['timeZone'])
             # Archive flashcards share the same schedule; early clicks never move due dates.
             learning['srs'][v['id']]=record
             r={'vocabularyId':v['id'],'lessonId':l['id'],'interval':record['interval'],'repetitions':record['successfulReviews']+record['failedReviews'],'lapses':record['failedReviews'],'dueAt':record['nextReviewAt'],'lastRating':rating,'updatedAt':now()}
             self.store.state['reviews'][v['id']]=r
+            learning['reviewHistory'].append({'itemId':v['id'],'label':v['chinese'],'kind':item['kind'],'answer':None,'rating':rating,'objectiveCorrect':None,'mode':'flashcard_self_check','practiceOnly':not was_due,'at':now(),'sourceRefs':v.get('sourceRefs',[])})
+            learning['reviewHistory']=learning['reviewHistory'][-10000:]
             self.progress(l['id']); self.event('Reviewed '+v['chinese'],l['id'])
             self.store.save_state(); self.send(r)
         else: raise APIError(404,'Endpoint not found.')
