@@ -18,7 +18,7 @@ The export curriculum/learning_path.json uses the same data-driven path served b
 
 Most steps allow 8–15 minutes; later extended Apply tasks allow 18. Estimates never create study-time credit. Longer original material remains accessible. Source-specific tasks, models, differentiation and criteria remain in data/curriculum.json.
 
-Steps unlock in sequence. Completed steps stay accessible and reviews are never locked. Completion checks assigned answers, source acknowledgement, real saved/submitted work and reflection. These are practice requirements, not proof of proficiency. Older completed units migrate to five marked steps, with no invented XP. Future archive completion remains an archive record; the new path uses its stricter five-step gates.
+All 100 steps are accessible from the start in any order. Suggested next steps follow the original sequence, without blocking access. Completed steps and reviews remain accessible. Completion checks assigned answers, source acknowledgement, real saved/submitted work and reflection. These are practice requirements, not proof of proficiency. Older completed units migrate to five marked steps, with no invented XP. Future archive completion remains an archive record; the new path uses its stricter five-step gates.
 
 ### Daily rhythm and rewards
 
@@ -56,7 +56,7 @@ Build responses and challenges have server saves, browser recovery, submission/r
 ## Run and maintain
 
 ~~~sh
-cd '/path/to/chinese-atelier'
+cd '/Users/tian/Documents/中文学习'
 python3 server.py --port 8001
 ~~~
 
