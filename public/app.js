@@ -1,5 +1,6 @@
 import {visualView,visualEvent,visualSubmit,visualInput,visualPortfolio,vocabularyPicture,prepareVisual} from './visual.js';
-import {celebrate} from './rewards.js';
+import {celebrate,encouragement} from './rewards.js';
+import {installPronunciation,registerPronunciation} from './pronunciation.js';
 import {api,esc,icon,notice,empty,date,toast,errorView,originLabel,sourceRefs,download,setTimeZone} from './lib.js';
 import {teacherView,teacherEvent,teacherSubmit} from './teacher.js';
 import {dailyView,dailyEvent,dailySubmit,dailyInput,microPortfolio,teacherDailySubmit,trackVisualClock} from './daily.js';
@@ -32,7 +33,7 @@ function sidebar(teacher=false) {
 
 function shell(content,label,teacher=false) {
   const today=new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:B.state.learning?.settings.timeZone||'Asia/Bangkok'}).format(new Date());
-  return sidebar(teacher)+'<div class="page"><header class="topbar"><div class="topbar-left"><button class="icon-button menu-button" data-action="menu" aria-label="Toggle navigation" aria-expanded="false">'+icon('menu')+'</button><span class="muted">Your atelier</span>'+icon('chevron')+'<strong>'+esc(label)+'</strong></div><div class="topbar-right"><time>'+today+'</time><span class="local-dot"></span><span>Saved on this device</span></div></header><main class="main" id="main" tabindex="-1">'+content+'</main><footer class="page-footer"><span>《走遍泰国》 · Prince of Songkla University Phuket Confucius Institute</span><span>Local, private learning · <a href="#" data-action="privacy">About your data</a></span></footer></div>'+(!teacher?'<nav class="bottom-nav" aria-label="Mobile main navigation">'+[['home','Today','home'],['globe','Path','path'],['refresh','Review','review'],['book','Phrases','phrasebook'],['portfolio','Portfolio','portfolio']].map(([i,t,r])=>'<a href="#/'+r+'" class="'+((route()[0]||'home')===r?'active':'')+'">'+icon(i)+'<span>'+t+'</span></a>').join('')+'</nav>':'');
+  return sidebar(teacher)+'<div class="page"><header class="topbar"><div class="topbar-left"><button class="icon-button menu-button" data-action="menu" aria-label="Toggle navigation" aria-expanded="false">'+icon('menu')+'</button><span class="muted">Your atelier</span>'+icon('chevron')+'<strong>'+esc(label)+'</strong></div><div class="topbar-right"><time>'+today+'</time><span class="local-dot"></span><span>Saved on this device</span></div></header><main class="main" id="main" tabindex="-1">'+(!teacher?'<p class="pronunciation-tip">Tap any dotted-underlined Chinese text for pinyin. On a focused card or answer, press Alt+P. Click the rest of the card to open it.</p>':'')+content+'</main><footer class="page-footer"><span>《走遍泰国》 · Prince of Songkla University Phuket Confucius Institute</span><span>Local, private learning · <a href="#" data-action="privacy">About your data</a></span></footer></div>'+(!teacher?'<nav class="bottom-nav" aria-label="Mobile main navigation">'+[['home','Today','home'],['globe','Path','path'],['refresh','Review','review'],['book','Phrases','phrasebook'],['portfolio','Portfolio','portfolio']].map(([i,t,r])=>'<a href="#/'+r+'" class="'+((route()[0]||'home')===r?'active':'')+'">'+icon(i)+'<span>'+t+'</span></a>').join('')+'</nav>':'');
 }
 
 function intro(eyebrow,title,description,action='') {
@@ -181,6 +182,7 @@ async function lessonView(id,section='overview') {
 
 async function loadLesson(id) {
   if(!lessonCache.has(id))lessonCache.set(id,await api('/api/lessons/'+encodeURIComponent(id)));
+  registerPronunciation(lessonCache.get(id));
   return lessonCache.get(id);
 }
 
@@ -257,7 +259,7 @@ function saveResponse(lessonId,taskId,text,submit=false,manual=false) {
     if(indicator)indicator.textContent=(r.submitted?'Submitted · ':'Saved · ')+date(r.updatedAt);
     const feedback=document.querySelector('[data-response-feedback="'+taskId+'"]');
     if(feedback&&(manual||submit))feedback.innerHTML=responseFeedback(r);
-    if(manual)toast(submit?'Submitted for teacher review.':'Draft saved.');
+    if(manual){toast(encouragement(r.submitted?'writing':'draft'));if(r.submitted)celebrate(0,'Your Chinese voice, worth sharing.');}
     return r;
   }).catch(e=>{const indicator=document.querySelector('[data-save-for="'+taskId+'"]');if(indicator)indicator.textContent='Server save failed · browser draft retained';if(manual)toast(e.message,true);throw e;});
   saveQueues.set(taskId,promise);
@@ -311,10 +313,11 @@ document.addEventListener('click',async e=>{
       B.state.reviews[vocab]=await api('/api/review',{lessonId:lesson,vocabularyId:vocab,rating});
       flashFlipped=false;
       if(context!=='practice')flashIndex=(flashIndex+1)%activeLesson.vocabulary.length;
-      await render();toast('Review scheduled.');document.querySelector('.flashcard')?.focus({preventScroll:true});
+      await render();toast(encouragement('review'));document.querySelector('.flashcard')?.focus({preventScroll:true});
     }
     if(action==='section-done'){
       B.state.progress[activeLesson.id]=await api('/api/progress',{lessonId:activeLesson.id,section:target.dataset.section,mark:true});
+      toast('Section completed. '+encouragement('understand'));
       if(target.dataset.section===target.dataset.next)await render();else location.hash=href(activeLesson.id,target.dataset.next);
     }
     if(action==='discard-draft'){clearTimeout(saveTimers.get(target.dataset.task));removeDraft(target.dataset.task);await render();toast('Recovered browser draft discarded. Your server-saved version is kept.');}
@@ -341,7 +344,8 @@ document.addEventListener('submit',async e=>{
     if(kind.startsWith('teacher')||['verify-slide','assessment','edit-lesson','upload-source'].includes(kind)){await teacherSubmit(kind,form,fd,{B,refresh,render,lessonCache});return;}
     if(kind==='question'){
       const a=await api('/api/attempt',{lessonId:form.dataset.lesson,questionId:form.dataset.question,answer:fd.get('answer')});
-      B.state.attempts.push(a);if(a.correct)celebrate(a.xpEarned,'You’ve got it!');
+      const previous=B.state.attempts.filter(x=>x.questionId===form.dataset.question).at(-1);
+      B.state.attempts.push(a);if(a.correct)celebrate(a.xpEarned,encouragement(previous&&!previous.correct?'retry':'correct'));
       form.querySelector('.answer-feedback').innerHTML=feedbackHtml(a);
       form.querySelector('[data-attempt-status]').textContent='Latest attempt: '+(a.correct?'correct':'needs review');
       form.querySelector('button[type="submit"]').textContent='Check again';
@@ -357,7 +361,7 @@ document.addEventListener('submit',async e=>{
     if(kind==='reflection'){
       const complete=submitter?.value==='complete';
       B.state.progress[form.dataset.lesson]=await api('/api/progress',{lessonId:form.dataset.lesson,section:'reflection',reflection:fd.get('reflection'),complete,mark:complete});
-      if(complete){await refresh();await render();toast('Lesson completed. Your reflection is saved.');}
+      if(complete){await refresh();await render();toast(encouragement('lesson'));celebrate(0,'A lesson completed. A wider world within reach.');}
       else{form.querySelector('.reflection-feedback').innerHTML=notice('Reflection saved.');toast('Reflection saved.');}
     }
   }catch(error){
@@ -382,6 +386,7 @@ window.addEventListener('hashchange',async()=>{
 
 window.addEventListener('beforeunload',()=>{document.querySelectorAll('.response-box').forEach(el=>putDraft(el.dataset.task,el.value));});
 currentRoute=location.hash;
+installPronunciation();
 await render();
 if(route()[0]==='lesson'&&activeLesson&&canLearn(activeLesson)){
   try{B.state.progress[activeLesson.id]=await api('/api/progress',{lessonId:activeLesson.id,section:route()[2]||'overview'});}catch(e){toast(e.message,true);}
