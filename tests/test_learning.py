@@ -76,6 +76,33 @@ class SchedulingTests(unittest.TestCase):
 
 class LearningAPITests(AppTests):
  # Reuses isolated HTTP fixtures without duplicating inherited baseline test runs.
+ def test_all_vocabulary_flashcards_source_coverage_and_persistence(self):
+  deck=self.request('/api/learning/vocabulary')
+  expected=[v for lesson in self.curriculum['lessons'] for v in lesson['vocabulary']]
+  self.assertEqual(deck['total'],268);self.assertEqual(len(deck['lessons']),20)
+  self.assertEqual([l['number'] for l in deck['lessons']],list(range(1,21)))
+  self.assertEqual([l['title'] for l in deck['lessons']],[l['originalTitle'] for l in self.curriculum['lessons']])
+  self.assertEqual([v['id'] for v in deck['items']],[v['id'] for v in expected])
+  for word,original in zip(deck['items'],expected):
+   for field in ['chinese','pinyin','meaning','sourceRefs']:self.assertEqual(word[field],original[field])
+  last=deck['items'][-1];body={'lessonId':last['lessonId'],'vocabularyId':last['id'],'rating':'again'}
+  self.request('/api/review',dict(body,rating='unknown'),status=400)
+  first=self.request('/api/review',body)
+  self.assertEqual(first['lapses'],1)
+  state=self.request('/api/bootstrap')['state']['learning'];record=copy.deepcopy(state['srs'][last['id']])
+  self.assertTrue(record['lastReviewedAt']);self.assertEqual(record['mastery'],'relearning')
+  self.assertEqual(state['xpLedger'],{})
+  repeat=self.request('/api/review',dict(body,rating='good'));self.assertEqual(repeat['dueAt'],first['dueAt'])
+  self.assertEqual(self.request('/api/bootstrap')['state']['learning']['srs'][last['id']],record)
+  second=deck['items'][0];self.request('/api/review',{'lessonId':second['lessonId'],'vocabularyId':second['id'],'rating':'good'})
+  self.login();stats=self.request('/api/teacher/learning')
+  self.assertEqual(stats['selfRated'],2);self.assertIsNone(stats['objectiveSuccessRate'])
+  for event in stats['reviews']:
+   self.assertIsNone(event['objectiveCorrect']);self.assertIsNone(event['answer']);self.assertEqual(event['mode'],'flashcard_self_check')
+  history=self.server.store.state['learning']['reviewHistory'];self.assertTrue(history[-2]['practiceOnly'])
+  self.stop();self.start()
+  saved=next(v for v in self.request('/api/learning/vocabulary')['items'] if v['id']==last['id'])
+  self.assertEqual(saved['record'],record)
  def test_review_reveal_rating_replay_and_early_practice(self):
   iid='zt-01-v01';p=self.request('/api/learning/review/start',{'itemId':iid})
   self.assertNotIn('expected',p);self.request('/api/learning/review/rate',{'token':p['token'],'rating':'good'},status=409)

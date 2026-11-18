@@ -9,6 +9,11 @@ class VisualDatasetTests(unittest.TestCase):
  def test_all_source_assets_and_visual_answer_keys(self):
   self.assertEqual(validate(),[])
   d=visual.load();self.assertEqual(len(d['units']),20);self.assertEqual(sum(len(u['vocabulary']) for u in d['units']),268)
+  for unit in d['units']:
+   for word in unit['vocabulary']:
+    if word['imageId']:
+     self.assertEqual(d['images'][word['imageId']]['origin'],'textbook_asset')
+     self.assertTrue(word['imageSourceRefs'])
   types={a['type'] for u in d['units'] for a in u['activities']}
   self.assertGreaterEqual(len(types),8)
  def test_public_visual_catalog_never_reveals_keys(self):

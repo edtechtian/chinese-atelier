@@ -13,6 +13,14 @@ function api(path,body){
 assert.equal(api('/api/bootstrap').body.lessons.length,20);
 assert.equal(api('/api/learning').body.path.units.flatMap(u=>u.steps).length,100);
 const curriculum=JSON.parse(python.FS.readFile('/atelier/data/curriculum.json',{encoding:'utf8'}));
+const vocabulary=api('/api/learning/vocabulary').body;
+assert.equal(vocabulary.total,268);assert.equal(vocabulary.lessons.length,20);
+assert.deepEqual(vocabulary.lessons.map(l=>l.title),curriculum.lessons.map(l=>l.originalTitle));
+const lastWord=vocabulary.items.at(-1);
+const rated=api('/api/review',{lessonId:lastWord.lessonId,vocabularyId:lastWord.id,rating:'again'});
+assert.equal(rated.status,200);assert.equal(rated.body.lapses,1);
+assert.ok(api('/api/learning/vocabulary').body.items.at(-1).record.lastReviewedAt);
+assert.equal(api('/api/review',{lessonId:lastWord.lessonId,vocabularyId:lastWord.id,rating:'good'}).body.dueAt,rated.body.dueAt);
 let correct=0,incorrect=0;
 for(const lesson of curriculum.lessons){
  assert.equal(api('/api/lessons/'+lesson.id).body.originalTitle,lesson.originalTitle);
